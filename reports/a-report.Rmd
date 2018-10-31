@@ -1,0 +1,45 @@
+---
+title: "REPLACE ME"
+output:
+    html_document:
+    df_print: paged
+theme: sandstone
+---
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(here)
+library(viridis)
+source(here::here("code/lib.R"))
+theme_set(theme_report())
+
+knitr::opts_chunk$set(tidy = FALSE,
+                      fig.width = 6,
+                      fig.height = 5,
+                      echo = FALSE)
+
+paleta = c("#404E4D",
+           "#92DCE5",
+           "#938BA1",
+           "#2D3142",
+           "#F4743B")
+```
+
+```{r read}
+dados = read_projectdata()
+```
+
+```{r}
+dados %>% 
+    group_by(`Instituição(IES)`, CO_CURSO, NOME_CURSO) %>% 
+    count(sort = T)
+```
+
+```{r}
+dados %>% 
+    ggplot(aes(x = `Instituição(IES)`, y = QE_I27)) + 
+    geom_jitter(width = .2, size = .2, alpha = .8 ) +
+    # geom_boxplot() + 
+    coord_flip()
+```
+
