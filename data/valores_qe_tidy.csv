@@ -1,0 +1,586 @@
+i,pergunta,tipo,tamanho,enunciado,chave,valor
+70,QE_I01,Caracter,1,Qual o seu estado civil?,A , Solteiro(a)
+70,QE_I01,Caracter,1,Qual o seu estado civil?,B , Casado(a)
+70,QE_I01,Caracter,1,Qual o seu estado civil?,C , Separado(a) judicialmente/divorciado(a)
+70,QE_I01,Caracter,1,Qual o seu estado civil?,D , Viúvo(a)
+70,QE_I01,Caracter,1,Qual o seu estado civil?,E , Outro
+71,QE_I02,Caracter,1,Qual é a sua cor ou raça?,A , Branca
+71,QE_I02,Caracter,1,Qual é a sua cor ou raça?,B , Preta
+71,QE_I02,Caracter,1,Qual é a sua cor ou raça?,C , Amarela
+71,QE_I02,Caracter,1,Qual é a sua cor ou raça?,D , Parda
+71,QE_I02,Caracter,1,Qual é a sua cor ou raça?,E , Indígena
+71,QE_I02,Caracter,1,Qual é a sua cor ou raça?,F , Não quero declarar
+72,QE_I03,Caracter,1,Qual a sua nacionalidade?,A , Brasileira
+72,QE_I03,Caracter,1,Qual a sua nacionalidade?,B , Brasileira naturalizada
+72,QE_I03,Caracter,1,Qual a sua nacionalidade?,C , Estrangeira
+73,QE_I04,Caracter,1,Até que etapa de escolarização seu pai concluiu?,A , Nenhuma
+73,QE_I04,Caracter,1,Até que etapa de escolarização seu pai concluiu?,B , Ensino Fundamental: 1º ao 5º ano (1ª a 4ª série)
+73,QE_I04,Caracter,1,Até que etapa de escolarização seu pai concluiu?,C , Ensino Fundamental: 6º ao 9º ano (5ª a 8ª série)
+73,QE_I04,Caracter,1,Até que etapa de escolarização seu pai concluiu?,D , Ensino Médio
+73,QE_I04,Caracter,1,Até que etapa de escolarização seu pai concluiu?,E , Ensino Superior - Graduação
+73,QE_I04,Caracter,1,Até que etapa de escolarização seu pai concluiu?,F , Pós-graduação
+74,QE_I05,Caracter,1,Até que etapa de escolarização sua mãe concluiu?,A , Nenhuma
+74,QE_I05,Caracter,1,Até que etapa de escolarização sua mãe concluiu?,B , Ensino fundamental: 1º ao 5º ano (1ª a 4ª série)
+74,QE_I05,Caracter,1,Até que etapa de escolarização sua mãe concluiu?,C , Ensino fundamental: 6º ao 9º ano (5ª a 8ª série)
+74,QE_I05,Caracter,1,Até que etapa de escolarização sua mãe concluiu?,D , Ensino médio
+74,QE_I05,Caracter,1,Até que etapa de escolarização sua mãe concluiu?,E , Ensino Superior - Graduação
+74,QE_I05,Caracter,1,Até que etapa de escolarização sua mãe concluiu?,F , Pós-graduação
+75,QE_I06,Caracter,1,Onde e com quem você mora atualmente?,A ," Em casa ou apartamento, sozinho"
+75,QE_I06,Caracter,1,Onde e com quem você mora atualmente?,B ," Em casa ou apartamento, com pais e/ou parentes"
+75,QE_I06,Caracter,1,Onde e com quem você mora atualmente?,C ," Em casa ou apartamento, com cônjuge e/ou filhos"
+75,QE_I06,Caracter,1,Onde e com quem você mora atualmente?,D ," Em casa ou apartamento, com outras pessoas (incluindo república)"
+75,QE_I06,Caracter,1,Onde e com quem você mora atualmente?,E , Em alojamento universitário da própria instituição
+75,QE_I06,Caracter,1,Onde e com quem você mora atualmente?,F ," Em outros tipos de habitação individual ou coletiva (hotel, hospedaria, pensão ou outro)"
+76,QE_I07,Caracter,1,"Quantas pessoas da sua família moram com você? Considere seus pais, irmãos, cônjuge, filhos e outros parentes que moram na mesma casa com você.",A , Nenhuma
+76,QE_I07,Caracter,1,"Quantas pessoas da sua família moram com você? Considere seus pais, irmãos, cônjuge, filhos e outros parentes que moram na mesma casa com você.",B , Uma
+76,QE_I07,Caracter,1,"Quantas pessoas da sua família moram com você? Considere seus pais, irmãos, cônjuge, filhos e outros parentes que moram na mesma casa com você.",C , Duas
+76,QE_I07,Caracter,1,"Quantas pessoas da sua família moram com você? Considere seus pais, irmãos, cônjuge, filhos e outros parentes que moram na mesma casa com você.",D , Três
+76,QE_I07,Caracter,1,"Quantas pessoas da sua família moram com você? Considere seus pais, irmãos, cônjuge, filhos e outros parentes que moram na mesma casa com você.",E , Quatro
+76,QE_I07,Caracter,1,"Quantas pessoas da sua família moram com você? Considere seus pais, irmãos, cônjuge, filhos e outros parentes que moram na mesma casa com você.",F , Cinco
+76,QE_I07,Caracter,1,"Quantas pessoas da sua família moram com você? Considere seus pais, irmãos, cônjuge, filhos e outros parentes que moram na mesma casa com você.",G , Seis
+76,QE_I07,Caracter,1,"Quantas pessoas da sua família moram com você? Considere seus pais, irmãos, cônjuge, filhos e outros parentes que moram na mesma casa com você.",H , Sete ou mais
+77,QE_I08,Caracter,1,"Qual a renda total de sua família, incluindo seus rendimentos?",A ," Até 1,5 salário mínimo (até R$ 1405,50)."
+77,QE_I08,Caracter,1,"Qual a renda total de sua família, incluindo seus rendimentos?",B ," De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00)."
+77,QE_I08,Caracter,1,"Qual a renda total de sua família, incluindo seus rendimentos?",C ," De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50)."
+77,QE_I08,Caracter,1,"Qual a renda total de sua família, incluindo seus rendimentos?",D ," De 4,5 a 6 salários mínimos (R$ 4216,51 a R$ 5.622,00)."
+77,QE_I08,Caracter,1,"Qual a renda total de sua família, incluindo seus rendimentos?",E ," De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00)."
+77,QE_I08,Caracter,1,"Qual a renda total de sua família, incluindo seus rendimentos?",F ," De 10 a 30 salários mínimos (R$ 9370,01 a R$ 28.110,00)."
+77,QE_I08,Caracter,1,"Qual a renda total de sua família, incluindo seus rendimentos?",G ," Acima de 30 salários mínimos (mais de R$ 28110,00)."
+78,QE_I09,Caracter,1,Qual alternativa a seguir melhor descreve sua situação financeira (incluindo bolsas)?,A , Não tenho renda e meus gastos são financiados por programas governamentais
+78,QE_I09,Caracter,1,Qual alternativa a seguir melhor descreve sua situação financeira (incluindo bolsas)?,B , Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas
+78,QE_I09,Caracter,1,Qual alternativa a seguir melhor descreve sua situação financeira (incluindo bolsas)?,C ," Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos"
+78,QE_I09,Caracter,1,Qual alternativa a seguir melhor descreve sua situação financeira (incluindo bolsas)?,D , Tenho renda e não preciso de ajuda para financiar meus gastos
+78,QE_I09,Caracter,1,Qual alternativa a seguir melhor descreve sua situação financeira (incluindo bolsas)?,E , Tenho renda e contribuo com o sustento da família
+78,QE_I09,Caracter,1,Qual alternativa a seguir melhor descreve sua situação financeira (incluindo bolsas)?,F , Sou o principal responsável pelo sustento da família
+79,QE_I10,Caracter,1,Qual alternativa a seguir melhor descreve sua situação de trabalho (exceto estágio ou bolsas)?,A , Não estou trabalhando
+79,QE_I10,Caracter,1,Qual alternativa a seguir melhor descreve sua situação de trabalho (exceto estágio ou bolsas)?,B , Trabalho eventualmente
+79,QE_I10,Caracter,1,Qual alternativa a seguir melhor descreve sua situação de trabalho (exceto estágio ou bolsas)?,C , Trabalho até 20 horas semanais
+79,QE_I10,Caracter,1,Qual alternativa a seguir melhor descreve sua situação de trabalho (exceto estágio ou bolsas)?,D , Trabalho de 21 a 39 horas semanais
+79,QE_I10,Caracter,1,Qual alternativa a seguir melhor descreve sua situação de trabalho (exceto estágio ou bolsas)?,E , Trabalho 40 horas semanais ou mais
+80,QE_I11,Caracter,1,"Que tipo de bolsa de estudos ou financiamento do curso você recebeu para custear todas ou a maior parte das mensalidades? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.",A ," Nenhum, pois meu curso é gratuito"
+80,QE_I11,Caracter,1,"Que tipo de bolsa de estudos ou financiamento do curso você recebeu para custear todas ou a maior parte das mensalidades? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.",B ," Nenhum, embora meu curso não seja gratuito"
+80,QE_I11,Caracter,1,"Que tipo de bolsa de estudos ou financiamento do curso você recebeu para custear todas ou a maior parte das mensalidades? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.",C , ProUni integral
+80,QE_I11,Caracter,1,"Que tipo de bolsa de estudos ou financiamento do curso você recebeu para custear todas ou a maior parte das mensalidades? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.",D ," ProUni parcial, apenas"
+80,QE_I11,Caracter,1,"Que tipo de bolsa de estudos ou financiamento do curso você recebeu para custear todas ou a maior parte das mensalidades? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.",E ," FIES, apenas"
+80,QE_I11,Caracter,1,"Que tipo de bolsa de estudos ou financiamento do curso você recebeu para custear todas ou a maior parte das mensalidades? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.",F , ProUni Parcial e FIES
+80,QE_I11,Caracter,1,"Que tipo de bolsa de estudos ou financiamento do curso você recebeu para custear todas ou a maior parte das mensalidades? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.",G ," Bolsa oferecida por governo estadual, distrital ou municipal"
+80,QE_I11,Caracter,1,"Que tipo de bolsa de estudos ou financiamento do curso você recebeu para custear todas ou a maior parte das mensalidades? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.",H , Bolsa oferecida pela própria instituição
+80,QE_I11,Caracter,1,"Que tipo de bolsa de estudos ou financiamento do curso você recebeu para custear todas ou a maior parte das mensalidades? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.",I ," Bolsa oferecida por outra entidade (empresa, ONG, outra)"
+80,QE_I11,Caracter,1,"Que tipo de bolsa de estudos ou financiamento do curso você recebeu para custear todas ou a maior parte das mensalidades? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.",J , Financiamento oferecido pela própria instituição
+80,QE_I11,Caracter,1,"Que tipo de bolsa de estudos ou financiamento do curso você recebeu para custear todas ou a maior parte das mensalidades? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.",K , Financiamento bancário
+81,QE_I12,Caracter,1,"Ao longo da sua trajetória acadêmica, você recebeu algum tipo de auxílio permanência? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.",A , Nenhum
+81,QE_I12,Caracter,1,"Ao longo da sua trajetória acadêmica, você recebeu algum tipo de auxílio permanência? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.",B , Auxílio moradia
+81,QE_I12,Caracter,1,"Ao longo da sua trajetória acadêmica, você recebeu algum tipo de auxílio permanência? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.",C , Auxílio alimentação
+81,QE_I12,Caracter,1,"Ao longo da sua trajetória acadêmica, você recebeu algum tipo de auxílio permanência? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.",D , Auxílio moradia e alimentação
+81,QE_I12,Caracter,1,"Ao longo da sua trajetória acadêmica, você recebeu algum tipo de auxílio permanência? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.",E , Auxílio permanência
+81,QE_I12,Caracter,1,"Ao longo da sua trajetória acadêmica, você recebeu algum tipo de auxílio permanência? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.",F , Outro tipo de auxílio
+82,QE_I13,Caracter,1,"Ao longo da sua trajetória acadêmica, você recebeu algum tipo de bolsa acadêmica? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.",A , Nenhum
+82,QE_I13,Caracter,1,"Ao longo da sua trajetória acadêmica, você recebeu algum tipo de bolsa acadêmica? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.",B , Bolsa de iniciação científica
+82,QE_I13,Caracter,1,"Ao longo da sua trajetória acadêmica, você recebeu algum tipo de bolsa acadêmica? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.",C , Bolsa de extensão
+82,QE_I13,Caracter,1,"Ao longo da sua trajetória acadêmica, você recebeu algum tipo de bolsa acadêmica? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.",D , Bolsa de monitoria/tutoria
+82,QE_I13,Caracter,1,"Ao longo da sua trajetória acadêmica, você recebeu algum tipo de bolsa acadêmica? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.",E , Bolsa PET
+82,QE_I13,Caracter,1,"Ao longo da sua trajetória acadêmica, você recebeu algum tipo de bolsa acadêmica? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.",F , Outro tipo de bolsa acadêmica
+83,QE_I14,Caracter,1,Durante o curso de graduação você participou de programas e/ou atividades curriculares no exterior?,A , Não participei
+83,QE_I14,Caracter,1,Durante o curso de graduação você participou de programas e/ou atividades curriculares no exterior?,B ," Sim, Programa Ciência sem Fronteiras"
+83,QE_I14,Caracter,1,Durante o curso de graduação você participou de programas e/ou atividades curriculares no exterior?,C ," Sim, programa de intercâmbio financiado pelo Governo Federal (Marca; Brafitec; PLI; outro)"
+83,QE_I14,Caracter,1,Durante o curso de graduação você participou de programas e/ou atividades curriculares no exterior?,D ," Sim, programa de intercâmbio financiado pelo Governo Estadual"
+83,QE_I14,Caracter,1,Durante o curso de graduação você participou de programas e/ou atividades curriculares no exterior?,E ," Sim, programa de intercâmbio da minha instituição"
+83,QE_I14,Caracter,1,Durante o curso de graduação você participou de programas e/ou atividades curriculares no exterior?,F ," Sim, outro intercâmbio não institucional"
+84,QE_I15,Caracter,1,Seu ingresso no curso de graduação se deu por meio de políticas de ação afirmativa ou inclusão social?,A , Não
+84,QE_I15,Caracter,1,Seu ingresso no curso de graduação se deu por meio de políticas de ação afirmativa ou inclusão social?,B ," Sim, por critério étnico-racial"
+84,QE_I15,Caracter,1,Seu ingresso no curso de graduação se deu por meio de políticas de ação afirmativa ou inclusão social?,C ," Sim, por critério de renda"
+84,QE_I15,Caracter,1,Seu ingresso no curso de graduação se deu por meio de políticas de ação afirmativa ou inclusão social?,D ," Sim, por ter estudado em escola pública ou particular com bolsa de estudos"
+84,QE_I15,Caracter,1,Seu ingresso no curso de graduação se deu por meio de políticas de ação afirmativa ou inclusão social?,E ," Sim, por sistema que combina dois ou mais critérios anteriores"
+84,QE_I15,Caracter,1,Seu ingresso no curso de graduação se deu por meio de políticas de ação afirmativa ou inclusão social?,F ," Sim, por sistema diferente dos anteriores"
+85,QE_I16,Numérica,2,Em que unidade da Federação você concluiu o ensino médio?,11 , Rondônia (RO)                                                28 
+85,QE_I16,Numérica,2,Em que unidade da Federação você concluiu o ensino médio?,12 , Acre (AC)                                                           29 
+85,QE_I16,Numérica,2,Em que unidade da Federação você concluiu o ensino médio?,13 , Amazonas (AM)                                              31 
+85,QE_I16,Numérica,2,Em que unidade da Federação você concluiu o ensino médio?,14 , Roraima (RR)                                                    32 
+85,QE_I16,Numérica,2,Em que unidade da Federação você concluiu o ensino médio?,15 , Pará (PA)                                                            33 
+85,QE_I16,Numérica,2,Em que unidade da Federação você concluiu o ensino médio?,16 , Amapa (AP)                                                      35 
+85,QE_I16,Numérica,2,Em que unidade da Federação você concluiu o ensino médio?,17 , Tocantins (TO)                                                 41 
+85,QE_I16,Numérica,2,Em que unidade da Federação você concluiu o ensino médio?,21 , Maranhão (MA)                                               42 
+85,QE_I16,Numérica,2,Em que unidade da Federação você concluiu o ensino médio?,22 , Piauí (PI)                                                             43 
+85,QE_I16,Numérica,2,Em que unidade da Federação você concluiu o ensino médio?,23 , Ceará (CE)                                                          50 
+85,QE_I16,Numérica,2,Em que unidade da Federação você concluiu o ensino médio?,24 , Rio grande do norte (RN)                            51 
+85,QE_I16,Numérica,2,Em que unidade da Federação você concluiu o ensino médio?,25 , Paraíba (PB)                                                      52 
+85,QE_I16,Numérica,2,Em que unidade da Federação você concluiu o ensino médio?,26 , Pernambuco (PE)                                           53 
+85,QE_I16,Numérica,2,Em que unidade da Federação você concluiu o ensino médio?,27 , Alagoas (AL)                                                     99 
+86,QE_I17,Caracter,1,Em que tipo de escola você cursou o ensino médio?,A , Todo em escola pública
+86,QE_I17,Caracter,1,Em que tipo de escola você cursou o ensino médio?,B , Todo em escola privada (particular)
+86,QE_I17,Caracter,1,Em que tipo de escola você cursou o ensino médio?,C , Todo no exterior
+86,QE_I17,Caracter,1,Em que tipo de escola você cursou o ensino médio?,D , A maior parte em escola pública
+86,QE_I17,Caracter,1,Em que tipo de escola você cursou o ensino médio?,E , A maior parte em escola privada (particular)
+86,QE_I17,Caracter,1,Em que tipo de escola você cursou o ensino médio?,F , Parte no Brasil e parte no exterior
+87,QE_I18,Caracter,1,Qual modalidade de ensino médio você concluiu?,A , Ensino médio tradicional
+87,QE_I18,Caracter,1,Qual modalidade de ensino médio você concluiu?,B ," Profissionalizante técnico (eletrônica, contabilidade, agrícola, outro)"
+87,QE_I18,Caracter,1,Qual modalidade de ensino médio você concluiu?,C , Profissionalizante magistério (Curso Normal)
+87,QE_I18,Caracter,1,Qual modalidade de ensino médio você concluiu?,D , Educação de Jovens e Adultos (EJA) e/ou Supletivo
+87,QE_I18,Caracter,1,Qual modalidade de ensino médio você concluiu?,E , Outra modalidade
+88,QE_I19,Caracter,1,Quem lhe deu maior incentivo para cursar a graduação?,A , Ninguém
+88,QE_I19,Caracter,1,Quem lhe deu maior incentivo para cursar a graduação?,B , Pais
+88,QE_I19,Caracter,1,Quem lhe deu maior incentivo para cursar a graduação?,C , Outros membros da família que não os pais
+88,QE_I19,Caracter,1,Quem lhe deu maior incentivo para cursar a graduação?,D , Professores
+88,QE_I19,Caracter,1,Quem lhe deu maior incentivo para cursar a graduação?,E , Líder ou representante religioso
+88,QE_I19,Caracter,1,Quem lhe deu maior incentivo para cursar a graduação?,F , Colegas/Amigos
+88,QE_I19,Caracter,1,Quem lhe deu maior incentivo para cursar a graduação?,G , Outras pessoas
+89,QE_I20,Caracter,1,Algum dos grupos abaixo foi determinante para você enfrentar dificuldades durante seu curso superior e concluí-lo?,A , Não tive dificuldade
+89,QE_I20,Caracter,1,Algum dos grupos abaixo foi determinante para você enfrentar dificuldades durante seu curso superior e concluí-lo?,B , Não recebi apoio para enfrentar dificuldades
+89,QE_I20,Caracter,1,Algum dos grupos abaixo foi determinante para você enfrentar dificuldades durante seu curso superior e concluí-lo?,C , Pais
+89,QE_I20,Caracter,1,Algum dos grupos abaixo foi determinante para você enfrentar dificuldades durante seu curso superior e concluí-lo?,D , Avós
+89,QE_I20,Caracter,1,Algum dos grupos abaixo foi determinante para você enfrentar dificuldades durante seu curso superior e concluí-lo?,E ," Irmãos, primos ou tios"
+89,QE_I20,Caracter,1,Algum dos grupos abaixo foi determinante para você enfrentar dificuldades durante seu curso superior e concluí-lo?,F , Líder ou representante religioso
+89,QE_I20,Caracter,1,Algum dos grupos abaixo foi determinante para você enfrentar dificuldades durante seu curso superior e concluí-lo?,G , Colegas de curso ou amigos
+89,QE_I20,Caracter,1,Algum dos grupos abaixo foi determinante para você enfrentar dificuldades durante seu curso superior e concluí-lo?,H , Professores do curso
+89,QE_I20,Caracter,1,Algum dos grupos abaixo foi determinante para você enfrentar dificuldades durante seu curso superior e concluí-lo?,I , Profissionais do serviço de apoio ao estudante da IES
+89,QE_I20,Caracter,1,Algum dos grupos abaixo foi determinante para você enfrentar dificuldades durante seu curso superior e concluí-lo?,J , Colegas de trabalho
+89,QE_I20,Caracter,1,Algum dos grupos abaixo foi determinante para você enfrentar dificuldades durante seu curso superior e concluí-lo?,K , Outro grupo
+90,QE_I21,Caracter,1,Alguém em sua família concluiu um curso superior?,A , Sim
+90,QE_I21,Caracter,1,Alguém em sua família concluiu um curso superior?,B , Não
+91,QE_I22,Caracter,1,"Excetuando-se os livros indicados na bibliografia do seu curso, quantos livros você leu neste ano?",A , Nenhum
+91,QE_I22,Caracter,1,"Excetuando-se os livros indicados na bibliografia do seu curso, quantos livros você leu neste ano?",B , Um ou dois
+91,QE_I22,Caracter,1,"Excetuando-se os livros indicados na bibliografia do seu curso, quantos livros você leu neste ano?",C , De três a cinco
+91,QE_I22,Caracter,1,"Excetuando-se os livros indicados na bibliografia do seu curso, quantos livros você leu neste ano?",D , De seis a oito
+91,QE_I22,Caracter,1,"Excetuando-se os livros indicados na bibliografia do seu curso, quantos livros você leu neste ano?",E , Mais de oito
+92,QE_I23,Caracter,1,"Quantas horas por semana, aproximadamente, você dedicou aos estudos, excetuando as horas de aula?",A ," Nenhuma, apenas assisto às aulas"
+92,QE_I23,Caracter,1,"Quantas horas por semana, aproximadamente, você dedicou aos estudos, excetuando as horas de aula?",B , De uma a três
+92,QE_I23,Caracter,1,"Quantas horas por semana, aproximadamente, você dedicou aos estudos, excetuando as horas de aula?",C , De quatro a sete
+92,QE_I23,Caracter,1,"Quantas horas por semana, aproximadamente, você dedicou aos estudos, excetuando as horas de aula?",D , De oito a doze
+92,QE_I23,Caracter,1,"Quantas horas por semana, aproximadamente, você dedicou aos estudos, excetuando as horas de aula?",E , Mais de doze
+93,QE_I24,Caracter,1,Você teve oportunidade de aprendizado de idioma estrangeiro na Instituição?,A ," Sim, somente na modalidade presencial"
+93,QE_I24,Caracter,1,Você teve oportunidade de aprendizado de idioma estrangeiro na Instituição?,B ," Sim, somente na modalidade semipresencial"
+93,QE_I24,Caracter,1,Você teve oportunidade de aprendizado de idioma estrangeiro na Instituição?,C ," Sim, parte na modalidade presencial e parte na modalidade semipresencial"
+93,QE_I24,Caracter,1,Você teve oportunidade de aprendizado de idioma estrangeiro na Instituição?,D ," Sim, na modalidade a distância"
+93,QE_I24,Caracter,1,Você teve oportunidade de aprendizado de idioma estrangeiro na Instituição?,E , Não
+94,QE_I25,Caracter,1,Qual o principal motivo para você ter escolhido este curso?,A , Inserção no mercado de trabalho
+94,QE_I25,Caracter,1,Qual o principal motivo para você ter escolhido este curso?,B , Influência familiar
+94,QE_I25,Caracter,1,Qual o principal motivo para você ter escolhido este curso?,C , Valorização profissional
+94,QE_I25,Caracter,1,Qual o principal motivo para você ter escolhido este curso?,D , Prestígio Social
+94,QE_I25,Caracter,1,Qual o principal motivo para você ter escolhido este curso?,E , Vocação
+94,QE_I25,Caracter,1,Qual o principal motivo para você ter escolhido este curso?,F , Oferecido na modalidade a distância
+94,QE_I25,Caracter,1,Qual o principal motivo para você ter escolhido este curso?,G , Baixa concorrência para ingresso
+94,QE_I25,Caracter,1,Qual o principal motivo para você ter escolhido este curso?,H , Outro motivo
+95,QE_I26,Caracter,1,Qual a principal razão para você ter escolhido a sua instituição de educação superior?,A , Gratuidade
+95,QE_I26,Caracter,1,Qual a principal razão para você ter escolhido a sua instituição de educação superior?,B , Preço da mensalidade
+95,QE_I26,Caracter,1,Qual a principal razão para você ter escolhido a sua instituição de educação superior?,C , Proximidade da minha residência
+95,QE_I26,Caracter,1,Qual a principal razão para você ter escolhido a sua instituição de educação superior?,D , Proximidade do meu trabalho
+95,QE_I26,Caracter,1,Qual a principal razão para você ter escolhido a sua instituição de educação superior?,E , Facilidade de acesso
+95,QE_I26,Caracter,1,Qual a principal razão para você ter escolhido a sua instituição de educação superior?,F , Qualidade/reputação
+95,QE_I26,Caracter,1,Qual a principal razão para você ter escolhido a sua instituição de educação superior?,G , Foi a única onde tive aprovação
+95,QE_I26,Caracter,1,Qual a principal razão para você ter escolhido a sua instituição de educação superior?,H , Possibilidade de ter bolsa de estudo
+95,QE_I26,Caracter,1,Qual a principal razão para você ter escolhido a sua instituição de educação superior?,I , Outro motivo
+96,QE_I27,Numérica,1,"As disciplinas cursadas contribuíram para sua formação integral, como cidadão e profissional.",1 ,1 
+96,QE_I27,Numérica,1,"As disciplinas cursadas contribuíram para sua formação integral, como cidadão e profissional.",2,2
+96,QE_I27,Numérica,1,"As disciplinas cursadas contribuíram para sua formação integral, como cidadão e profissional.",3,3
+96,QE_I27,Numérica,1,"As disciplinas cursadas contribuíram para sua formação integral, como cidadão e profissional.",4,4
+96,QE_I27,Numérica,1,"As disciplinas cursadas contribuíram para sua formação integral, como cidadão e profissional.",5,5
+96,QE_I27,Numérica,1,"As disciplinas cursadas contribuíram para sua formação integral, como cidadão e profissional.",6 ,6 
+96,QE_I27,Numérica,1,"As disciplinas cursadas contribuíram para sua formação integral, como cidadão e profissional.",7 ,NA
+96,QE_I27,Numérica,1,"As disciplinas cursadas contribuíram para sua formação integral, como cidadão e profissional.",8 ,NA
+97,QE_I28,Numérica,1,Os conteúdos abordados nas disciplinas do curso favoreceram sua atuação em estágios ou em atividades de iniciação profissional.,1 ,1 
+97,QE_I28,Numérica,1,Os conteúdos abordados nas disciplinas do curso favoreceram sua atuação em estágios ou em atividades de iniciação profissional.,2,2
+97,QE_I28,Numérica,1,Os conteúdos abordados nas disciplinas do curso favoreceram sua atuação em estágios ou em atividades de iniciação profissional.,3,3
+97,QE_I28,Numérica,1,Os conteúdos abordados nas disciplinas do curso favoreceram sua atuação em estágios ou em atividades de iniciação profissional.,4,4
+97,QE_I28,Numérica,1,Os conteúdos abordados nas disciplinas do curso favoreceram sua atuação em estágios ou em atividades de iniciação profissional.,5,5
+97,QE_I28,Numérica,1,Os conteúdos abordados nas disciplinas do curso favoreceram sua atuação em estágios ou em atividades de iniciação profissional.,6 ,6 
+97,QE_I28,Numérica,1,Os conteúdos abordados nas disciplinas do curso favoreceram sua atuação em estágios ou em atividades de iniciação profissional.,7 ,NA
+97,QE_I28,Numérica,1,Os conteúdos abordados nas disciplinas do curso favoreceram sua atuação em estágios ou em atividades de iniciação profissional.,8 ,NA
+98,QE_I29,Numérica,1,As metodologias de ensino utilizadas no curso desafiaram você a aprofundar conhecimentos e desenvolver competências reflexivas e críticas.,1 ,1 
+98,QE_I29,Numérica,1,As metodologias de ensino utilizadas no curso desafiaram você a aprofundar conhecimentos e desenvolver competências reflexivas e críticas.,2,2
+98,QE_I29,Numérica,1,As metodologias de ensino utilizadas no curso desafiaram você a aprofundar conhecimentos e desenvolver competências reflexivas e críticas.,3,3
+98,QE_I29,Numérica,1,As metodologias de ensino utilizadas no curso desafiaram você a aprofundar conhecimentos e desenvolver competências reflexivas e críticas.,4,4
+98,QE_I29,Numérica,1,As metodologias de ensino utilizadas no curso desafiaram você a aprofundar conhecimentos e desenvolver competências reflexivas e críticas.,5,5
+98,QE_I29,Numérica,1,As metodologias de ensino utilizadas no curso desafiaram você a aprofundar conhecimentos e desenvolver competências reflexivas e críticas.,6 ,6 
+98,QE_I29,Numérica,1,As metodologias de ensino utilizadas no curso desafiaram você a aprofundar conhecimentos e desenvolver competências reflexivas e críticas.,7 ,NA
+98,QE_I29,Numérica,1,As metodologias de ensino utilizadas no curso desafiaram você a aprofundar conhecimentos e desenvolver competências reflexivas e críticas.,8 ,NA
+99,QE_I30,Numérica,1,O curso propiciou experiências de aprendizagem inovadoras.,1 ,1 
+99,QE_I30,Numérica,1,O curso propiciou experiências de aprendizagem inovadoras.,2,2
+99,QE_I30,Numérica,1,O curso propiciou experiências de aprendizagem inovadoras.,3,3
+99,QE_I30,Numérica,1,O curso propiciou experiências de aprendizagem inovadoras.,4,4
+99,QE_I30,Numérica,1,O curso propiciou experiências de aprendizagem inovadoras.,5,5
+99,QE_I30,Numérica,1,O curso propiciou experiências de aprendizagem inovadoras.,6 ,6 
+99,QE_I30,Numérica,1,O curso propiciou experiências de aprendizagem inovadoras.,7 ,NA
+99,QE_I30,Numérica,1,O curso propiciou experiências de aprendizagem inovadoras.,8 ,NA
+100,QE_I31,Numérica,1,O curso contribuiu para o desenvolvimento da sua consciência ética para o exercício profissional.,1 ,1 
+100,QE_I31,Numérica,1,O curso contribuiu para o desenvolvimento da sua consciência ética para o exercício profissional.,2,2
+100,QE_I31,Numérica,1,O curso contribuiu para o desenvolvimento da sua consciência ética para o exercício profissional.,3,3
+100,QE_I31,Numérica,1,O curso contribuiu para o desenvolvimento da sua consciência ética para o exercício profissional.,4,4
+100,QE_I31,Numérica,1,O curso contribuiu para o desenvolvimento da sua consciência ética para o exercício profissional.,5,5
+100,QE_I31,Numérica,1,O curso contribuiu para o desenvolvimento da sua consciência ética para o exercício profissional.,6 ,6 
+100,QE_I31,Numérica,1,O curso contribuiu para o desenvolvimento da sua consciência ética para o exercício profissional.,7 ,NA
+100,QE_I31,Numérica,1,O curso contribuiu para o desenvolvimento da sua consciência ética para o exercício profissional.,8 ,NA
+101,QE_I32,Numérica,1,No curso você teve oportunidade de aprender a trabalhar em equipe.,1 ,1 
+101,QE_I32,Numérica,1,No curso você teve oportunidade de aprender a trabalhar em equipe.,2,2
+101,QE_I32,Numérica,1,No curso você teve oportunidade de aprender a trabalhar em equipe.,3,3
+101,QE_I32,Numérica,1,No curso você teve oportunidade de aprender a trabalhar em equipe.,4,4
+101,QE_I32,Numérica,1,No curso você teve oportunidade de aprender a trabalhar em equipe.,5,5
+101,QE_I32,Numérica,1,No curso você teve oportunidade de aprender a trabalhar em equipe.,6 ,6 
+101,QE_I32,Numérica,1,No curso você teve oportunidade de aprender a trabalhar em equipe.,7 ,NA
+101,QE_I32,Numérica,1,No curso você teve oportunidade de aprender a trabalhar em equipe.,8 ,NA
+102,QE_I33,Numérica,1,O curso possibilitou aumentar sua capacidade de reflexão e argumentação.,1 ,1 
+102,QE_I33,Numérica,1,O curso possibilitou aumentar sua capacidade de reflexão e argumentação.,2,2
+102,QE_I33,Numérica,1,O curso possibilitou aumentar sua capacidade de reflexão e argumentação.,3,3
+102,QE_I33,Numérica,1,O curso possibilitou aumentar sua capacidade de reflexão e argumentação.,4,4
+102,QE_I33,Numérica,1,O curso possibilitou aumentar sua capacidade de reflexão e argumentação.,5,5
+102,QE_I33,Numérica,1,O curso possibilitou aumentar sua capacidade de reflexão e argumentação.,6 ,6 
+102,QE_I33,Numérica,1,O curso possibilitou aumentar sua capacidade de reflexão e argumentação.,7 ,NA
+102,QE_I33,Numérica,1,O curso possibilitou aumentar sua capacidade de reflexão e argumentação.,8 ,NA
+103,QE_I34,Numérica,1,"O curso promoveu o desenvolvimento da sua capacidade de pensar criticamente, analisar e refletir sobre soluções para problemas da sociedade.",1 ,1 
+103,QE_I34,Numérica,1,"O curso promoveu o desenvolvimento da sua capacidade de pensar criticamente, analisar e refletir sobre soluções para problemas da sociedade.",2,2
+103,QE_I34,Numérica,1,"O curso promoveu o desenvolvimento da sua capacidade de pensar criticamente, analisar e refletir sobre soluções para problemas da sociedade.",3,3
+103,QE_I34,Numérica,1,"O curso promoveu o desenvolvimento da sua capacidade de pensar criticamente, analisar e refletir sobre soluções para problemas da sociedade.",4,4
+103,QE_I34,Numérica,1,"O curso promoveu o desenvolvimento da sua capacidade de pensar criticamente, analisar e refletir sobre soluções para problemas da sociedade.",5,5
+103,QE_I34,Numérica,1,"O curso promoveu o desenvolvimento da sua capacidade de pensar criticamente, analisar e refletir sobre soluções para problemas da sociedade.",6 ,6 
+103,QE_I34,Numérica,1,"O curso promoveu o desenvolvimento da sua capacidade de pensar criticamente, analisar e refletir sobre soluções para problemas da sociedade.",7 ,NA
+103,QE_I34,Numérica,1,"O curso promoveu o desenvolvimento da sua capacidade de pensar criticamente, analisar e refletir sobre soluções para problemas da sociedade.",8 ,NA
+104,QE_I35,Numérica,1,O curso contribuiu para você ampliar sua capacidade de comunicação nas formas oral e escrita.,1 ,1 
+104,QE_I35,Numérica,1,O curso contribuiu para você ampliar sua capacidade de comunicação nas formas oral e escrita.,2,2
+104,QE_I35,Numérica,1,O curso contribuiu para você ampliar sua capacidade de comunicação nas formas oral e escrita.,3,3
+104,QE_I35,Numérica,1,O curso contribuiu para você ampliar sua capacidade de comunicação nas formas oral e escrita.,4,4
+104,QE_I35,Numérica,1,O curso contribuiu para você ampliar sua capacidade de comunicação nas formas oral e escrita.,5,5
+104,QE_I35,Numérica,1,O curso contribuiu para você ampliar sua capacidade de comunicação nas formas oral e escrita.,6 ,6 
+104,QE_I35,Numérica,1,O curso contribuiu para você ampliar sua capacidade de comunicação nas formas oral e escrita.,7 ,NA
+104,QE_I35,Numérica,1,O curso contribuiu para você ampliar sua capacidade de comunicação nas formas oral e escrita.,8 ,NA
+105,QE_I36,Numérica,1,O curso contribuiu para o desenvolvimento da sua capacidade de aprender e atualizar-se permanentemente.,1 ,1 
+105,QE_I36,Numérica,1,O curso contribuiu para o desenvolvimento da sua capacidade de aprender e atualizar-se permanentemente.,2,2
+105,QE_I36,Numérica,1,O curso contribuiu para o desenvolvimento da sua capacidade de aprender e atualizar-se permanentemente.,3,3
+105,QE_I36,Numérica,1,O curso contribuiu para o desenvolvimento da sua capacidade de aprender e atualizar-se permanentemente.,4,4
+105,QE_I36,Numérica,1,O curso contribuiu para o desenvolvimento da sua capacidade de aprender e atualizar-se permanentemente.,5,5
+105,QE_I36,Numérica,1,O curso contribuiu para o desenvolvimento da sua capacidade de aprender e atualizar-se permanentemente.,6 ,6 
+105,QE_I36,Numérica,1,O curso contribuiu para o desenvolvimento da sua capacidade de aprender e atualizar-se permanentemente.,7 ,NA
+105,QE_I36,Numérica,1,O curso contribuiu para o desenvolvimento da sua capacidade de aprender e atualizar-se permanentemente.,8 ,NA
+106,QE_I37,Numérica,1,As relações professor-aluno ao longo do curso estimularam você a estudar e aprender.,1 ,1 
+106,QE_I37,Numérica,1,As relações professor-aluno ao longo do curso estimularam você a estudar e aprender.,2,2
+106,QE_I37,Numérica,1,As relações professor-aluno ao longo do curso estimularam você a estudar e aprender.,3,3
+106,QE_I37,Numérica,1,As relações professor-aluno ao longo do curso estimularam você a estudar e aprender.,4,4
+106,QE_I37,Numérica,1,As relações professor-aluno ao longo do curso estimularam você a estudar e aprender.,5,5
+106,QE_I37,Numérica,1,As relações professor-aluno ao longo do curso estimularam você a estudar e aprender.,6 ,6 
+106,QE_I37,Numérica,1,As relações professor-aluno ao longo do curso estimularam você a estudar e aprender.,7 ,NA
+106,QE_I37,Numérica,1,As relações professor-aluno ao longo do curso estimularam você a estudar e aprender.,8 ,NA
+107,QE_I38,Numérica,1,Os planos de ensino apresentados pelos professores contribuíram para o desenvolvimento das atividades acadêmicas e para seus estudos.,1 ,1 
+107,QE_I38,Numérica,1,Os planos de ensino apresentados pelos professores contribuíram para o desenvolvimento das atividades acadêmicas e para seus estudos.,2,2
+107,QE_I38,Numérica,1,Os planos de ensino apresentados pelos professores contribuíram para o desenvolvimento das atividades acadêmicas e para seus estudos.,3,3
+107,QE_I38,Numérica,1,Os planos de ensino apresentados pelos professores contribuíram para o desenvolvimento das atividades acadêmicas e para seus estudos.,4,4
+107,QE_I38,Numérica,1,Os planos de ensino apresentados pelos professores contribuíram para o desenvolvimento das atividades acadêmicas e para seus estudos.,5,5
+107,QE_I38,Numérica,1,Os planos de ensino apresentados pelos professores contribuíram para o desenvolvimento das atividades acadêmicas e para seus estudos.,6 ,6 
+107,QE_I38,Numérica,1,Os planos de ensino apresentados pelos professores contribuíram para o desenvolvimento das atividades acadêmicas e para seus estudos.,7 ,NA
+107,QE_I38,Numérica,1,Os planos de ensino apresentados pelos professores contribuíram para o desenvolvimento das atividades acadêmicas e para seus estudos.,8 ,NA
+108,QE_I39,Numérica,1,As referências bibliográficas indicadas pelos professores nos planos de ensino contribuíram para seus estudos e aprendizagens.,1 ,1 
+108,QE_I39,Numérica,1,As referências bibliográficas indicadas pelos professores nos planos de ensino contribuíram para seus estudos e aprendizagens.,2,2
+108,QE_I39,Numérica,1,As referências bibliográficas indicadas pelos professores nos planos de ensino contribuíram para seus estudos e aprendizagens.,3,3
+108,QE_I39,Numérica,1,As referências bibliográficas indicadas pelos professores nos planos de ensino contribuíram para seus estudos e aprendizagens.,4,4
+108,QE_I39,Numérica,1,As referências bibliográficas indicadas pelos professores nos planos de ensino contribuíram para seus estudos e aprendizagens.,5,5
+108,QE_I39,Numérica,1,As referências bibliográficas indicadas pelos professores nos planos de ensino contribuíram para seus estudos e aprendizagens.,6 ,6 
+108,QE_I39,Numérica,1,As referências bibliográficas indicadas pelos professores nos planos de ensino contribuíram para seus estudos e aprendizagens.,7 ,NA
+108,QE_I39,Numérica,1,As referências bibliográficas indicadas pelos professores nos planos de ensino contribuíram para seus estudos e aprendizagens.,8 ,NA
+109,QE_I40,Numérica,1,Foram oferecidas oportunidades para os estudantes superarem dificuldades relacionadas ao processo de formação.,1 ,1 
+109,QE_I40,Numérica,1,Foram oferecidas oportunidades para os estudantes superarem dificuldades relacionadas ao processo de formação.,2,2
+109,QE_I40,Numérica,1,Foram oferecidas oportunidades para os estudantes superarem dificuldades relacionadas ao processo de formação.,3,3
+109,QE_I40,Numérica,1,Foram oferecidas oportunidades para os estudantes superarem dificuldades relacionadas ao processo de formação.,4,4
+109,QE_I40,Numérica,1,Foram oferecidas oportunidades para os estudantes superarem dificuldades relacionadas ao processo de formação.,5,5
+109,QE_I40,Numérica,1,Foram oferecidas oportunidades para os estudantes superarem dificuldades relacionadas ao processo de formação.,6 ,6 
+109,QE_I40,Numérica,1,Foram oferecidas oportunidades para os estudantes superarem dificuldades relacionadas ao processo de formação.,7 ,NA
+109,QE_I40,Numérica,1,Foram oferecidas oportunidades para os estudantes superarem dificuldades relacionadas ao processo de formação.,8 ,NA
+110,QE_I41,Numérica,1,A coordenação do curso esteve disponível para orientação acadêmica dos estudantes.,1 ,1 
+110,QE_I41,Numérica,1,A coordenação do curso esteve disponível para orientação acadêmica dos estudantes.,2,2
+110,QE_I41,Numérica,1,A coordenação do curso esteve disponível para orientação acadêmica dos estudantes.,3,3
+110,QE_I41,Numérica,1,A coordenação do curso esteve disponível para orientação acadêmica dos estudantes.,4,4
+110,QE_I41,Numérica,1,A coordenação do curso esteve disponível para orientação acadêmica dos estudantes.,5,5
+110,QE_I41,Numérica,1,A coordenação do curso esteve disponível para orientação acadêmica dos estudantes.,6 ,6 
+110,QE_I41,Numérica,1,A coordenação do curso esteve disponível para orientação acadêmica dos estudantes.,7 ,NA
+110,QE_I41,Numérica,1,A coordenação do curso esteve disponível para orientação acadêmica dos estudantes.,8 ,NA
+111,QE_I42,Numérica,1,O curso exigiu de você organização e dedicação frequente aos estudos.,1 ,1 
+111,QE_I42,Numérica,1,O curso exigiu de você organização e dedicação frequente aos estudos.,2,2
+111,QE_I42,Numérica,1,O curso exigiu de você organização e dedicação frequente aos estudos.,3,3
+111,QE_I42,Numérica,1,O curso exigiu de você organização e dedicação frequente aos estudos.,4,4
+111,QE_I42,Numérica,1,O curso exigiu de você organização e dedicação frequente aos estudos.,5,5
+111,QE_I42,Numérica,1,O curso exigiu de você organização e dedicação frequente aos estudos.,6 ,6 
+111,QE_I42,Numérica,1,O curso exigiu de você organização e dedicação frequente aos estudos.,7 ,NA
+111,QE_I42,Numérica,1,O curso exigiu de você organização e dedicação frequente aos estudos.,8 ,NA
+112,QE_I43,Numérica,1,"Foram oferecidas oportunidades para os estudantes participarem de programas, projetos ou atividades de extensão universitária.",1 ,1 
+112,QE_I43,Numérica,1,"Foram oferecidas oportunidades para os estudantes participarem de programas, projetos ou atividades de extensão universitária.",2,2
+112,QE_I43,Numérica,1,"Foram oferecidas oportunidades para os estudantes participarem de programas, projetos ou atividades de extensão universitária.",3,3
+112,QE_I43,Numérica,1,"Foram oferecidas oportunidades para os estudantes participarem de programas, projetos ou atividades de extensão universitária.",4,4
+112,QE_I43,Numérica,1,"Foram oferecidas oportunidades para os estudantes participarem de programas, projetos ou atividades de extensão universitária.",5,5
+112,QE_I43,Numérica,1,"Foram oferecidas oportunidades para os estudantes participarem de programas, projetos ou atividades de extensão universitária.",6 ,6 
+112,QE_I43,Numérica,1,"Foram oferecidas oportunidades para os estudantes participarem de programas, projetos ou atividades de extensão universitária.",7 ,NA
+112,QE_I43,Numérica,1,"Foram oferecidas oportunidades para os estudantes participarem de programas, projetos ou atividades de extensão universitária.",8 ,NA
+113,QE_I44,Numérica,1,Foram oferecidas oportunidades para os estudantes participarem de projetos de iniciação científica e de atividades que estimularam a investigação acadêmica.,1 ,1 
+113,QE_I44,Numérica,1,Foram oferecidas oportunidades para os estudantes participarem de projetos de iniciação científica e de atividades que estimularam a investigação acadêmica.,2,2
+113,QE_I44,Numérica,1,Foram oferecidas oportunidades para os estudantes participarem de projetos de iniciação científica e de atividades que estimularam a investigação acadêmica.,3,3
+113,QE_I44,Numérica,1,Foram oferecidas oportunidades para os estudantes participarem de projetos de iniciação científica e de atividades que estimularam a investigação acadêmica.,4,4
+113,QE_I44,Numérica,1,Foram oferecidas oportunidades para os estudantes participarem de projetos de iniciação científica e de atividades que estimularam a investigação acadêmica.,5,5
+113,QE_I44,Numérica,1,Foram oferecidas oportunidades para os estudantes participarem de projetos de iniciação científica e de atividades que estimularam a investigação acadêmica.,6 ,6 
+113,QE_I44,Numérica,1,Foram oferecidas oportunidades para os estudantes participarem de projetos de iniciação científica e de atividades que estimularam a investigação acadêmica.,7 ,NA
+113,QE_I44,Numérica,1,Foram oferecidas oportunidades para os estudantes participarem de projetos de iniciação científica e de atividades que estimularam a investigação acadêmica.,8 ,NA
+114,QE_I45,Numérica,1,O curso ofereceu condições para os estudantes participarem de eventos internos e/ou externos à instituição.,1 ,1 
+114,QE_I45,Numérica,1,O curso ofereceu condições para os estudantes participarem de eventos internos e/ou externos à instituição.,2,2
+114,QE_I45,Numérica,1,O curso ofereceu condições para os estudantes participarem de eventos internos e/ou externos à instituição.,3,3
+114,QE_I45,Numérica,1,O curso ofereceu condições para os estudantes participarem de eventos internos e/ou externos à instituição.,4,4
+114,QE_I45,Numérica,1,O curso ofereceu condições para os estudantes participarem de eventos internos e/ou externos à instituição.,5,5
+114,QE_I45,Numérica,1,O curso ofereceu condições para os estudantes participarem de eventos internos e/ou externos à instituição.,6 ,6 
+114,QE_I45,Numérica,1,O curso ofereceu condições para os estudantes participarem de eventos internos e/ou externos à instituição.,7 ,NA
+114,QE_I45,Numérica,1,O curso ofereceu condições para os estudantes participarem de eventos internos e/ou externos à instituição.,8 ,NA
+115,QE_I46,Numérica,1,A instituição ofereceu oportunidades para os estudantes atuarem como representantes em órgãos colegiados.,1 ,1 
+115,QE_I46,Numérica,1,A instituição ofereceu oportunidades para os estudantes atuarem como representantes em órgãos colegiados.,2,2
+115,QE_I46,Numérica,1,A instituição ofereceu oportunidades para os estudantes atuarem como representantes em órgãos colegiados.,3,3
+115,QE_I46,Numérica,1,A instituição ofereceu oportunidades para os estudantes atuarem como representantes em órgãos colegiados.,4,4
+115,QE_I46,Numérica,1,A instituição ofereceu oportunidades para os estudantes atuarem como representantes em órgãos colegiados.,5,5
+115,QE_I46,Numérica,1,A instituição ofereceu oportunidades para os estudantes atuarem como representantes em órgãos colegiados.,6 ,6 
+115,QE_I46,Numérica,1,A instituição ofereceu oportunidades para os estudantes atuarem como representantes em órgãos colegiados.,7 ,NA
+115,QE_I46,Numérica,1,A instituição ofereceu oportunidades para os estudantes atuarem como representantes em órgãos colegiados.,8 ,NA
+116,QE_I47,Numérica,1,O curso favoreceu a articulação do conhecimento teórico com atividades práticas.,1 ,1 
+116,QE_I47,Numérica,1,O curso favoreceu a articulação do conhecimento teórico com atividades práticas.,2,2
+116,QE_I47,Numérica,1,O curso favoreceu a articulação do conhecimento teórico com atividades práticas.,3,3
+116,QE_I47,Numérica,1,O curso favoreceu a articulação do conhecimento teórico com atividades práticas.,4,4
+116,QE_I47,Numérica,1,O curso favoreceu a articulação do conhecimento teórico com atividades práticas.,5,5
+116,QE_I47,Numérica,1,O curso favoreceu a articulação do conhecimento teórico com atividades práticas.,6 ,6 
+116,QE_I47,Numérica,1,O curso favoreceu a articulação do conhecimento teórico com atividades práticas.,7 ,NA
+116,QE_I47,Numérica,1,O curso favoreceu a articulação do conhecimento teórico com atividades práticas.,8 ,NA
+117,QE_I48,Numérica,1,"As atividades práticas foram suficientes para relacionar os conteúdos do curso com a prática, contribuindo para sua formação profissional.",1 ,1 
+117,QE_I48,Numérica,1,"As atividades práticas foram suficientes para relacionar os conteúdos do curso com a prática, contribuindo para sua formação profissional.",2,2
+117,QE_I48,Numérica,1,"As atividades práticas foram suficientes para relacionar os conteúdos do curso com a prática, contribuindo para sua formação profissional.",3,3
+117,QE_I48,Numérica,1,"As atividades práticas foram suficientes para relacionar os conteúdos do curso com a prática, contribuindo para sua formação profissional.",4,4
+117,QE_I48,Numérica,1,"As atividades práticas foram suficientes para relacionar os conteúdos do curso com a prática, contribuindo para sua formação profissional.",5,5
+117,QE_I48,Numérica,1,"As atividades práticas foram suficientes para relacionar os conteúdos do curso com a prática, contribuindo para sua formação profissional.",6 ,6 
+117,QE_I48,Numérica,1,"As atividades práticas foram suficientes para relacionar os conteúdos do curso com a prática, contribuindo para sua formação profissional.",7 ,NA
+117,QE_I48,Numérica,1,"As atividades práticas foram suficientes para relacionar os conteúdos do curso com a prática, contribuindo para sua formação profissional.",8 ,NA
+118,QE_I49,Numérica,1,O curso propiciou acesso a conhecimentos atualizados e/ou contemporâneos em sua área de formação.,1 ,1 
+118,QE_I49,Numérica,1,O curso propiciou acesso a conhecimentos atualizados e/ou contemporâneos em sua área de formação.,2,2
+118,QE_I49,Numérica,1,O curso propiciou acesso a conhecimentos atualizados e/ou contemporâneos em sua área de formação.,3,3
+118,QE_I49,Numérica,1,O curso propiciou acesso a conhecimentos atualizados e/ou contemporâneos em sua área de formação.,4,4
+118,QE_I49,Numérica,1,O curso propiciou acesso a conhecimentos atualizados e/ou contemporâneos em sua área de formação.,5,5
+118,QE_I49,Numérica,1,O curso propiciou acesso a conhecimentos atualizados e/ou contemporâneos em sua área de formação.,6 ,6 
+118,QE_I49,Numérica,1,O curso propiciou acesso a conhecimentos atualizados e/ou contemporâneos em sua área de formação.,7 ,NA
+118,QE_I49,Numérica,1,O curso propiciou acesso a conhecimentos atualizados e/ou contemporâneos em sua área de formação.,8 ,NA
+119,QE_I50,Numérica,1,O estágio supervisionado proporcionou experiências diversificadas para a sua formação.,1 ,1 
+119,QE_I50,Numérica,1,O estágio supervisionado proporcionou experiências diversificadas para a sua formação.,2,2
+119,QE_I50,Numérica,1,O estágio supervisionado proporcionou experiências diversificadas para a sua formação.,3,3
+119,QE_I50,Numérica,1,O estágio supervisionado proporcionou experiências diversificadas para a sua formação.,4,4
+119,QE_I50,Numérica,1,O estágio supervisionado proporcionou experiências diversificadas para a sua formação.,5,5
+119,QE_I50,Numérica,1,O estágio supervisionado proporcionou experiências diversificadas para a sua formação.,6 ,6 
+119,QE_I50,Numérica,1,O estágio supervisionado proporcionou experiências diversificadas para a sua formação.,7 ,NA
+119,QE_I50,Numérica,1,O estágio supervisionado proporcionou experiências diversificadas para a sua formação.,8 ,NA
+120,QE_I51,Numérica,1,As atividades realizadas durante seu trabalho de conclusão de curso contribuíram para qualificar sua formação profissional,1 ,1 
+120,QE_I51,Numérica,1,As atividades realizadas durante seu trabalho de conclusão de curso contribuíram para qualificar sua formação profissional,2,2
+120,QE_I51,Numérica,1,As atividades realizadas durante seu trabalho de conclusão de curso contribuíram para qualificar sua formação profissional,3,3
+120,QE_I51,Numérica,1,As atividades realizadas durante seu trabalho de conclusão de curso contribuíram para qualificar sua formação profissional,4,4
+120,QE_I51,Numérica,1,As atividades realizadas durante seu trabalho de conclusão de curso contribuíram para qualificar sua formação profissional,5,5
+120,QE_I51,Numérica,1,As atividades realizadas durante seu trabalho de conclusão de curso contribuíram para qualificar sua formação profissional,6 ,6 
+120,QE_I51,Numérica,1,As atividades realizadas durante seu trabalho de conclusão de curso contribuíram para qualificar sua formação profissional,7 ,NA
+120,QE_I51,Numérica,1,As atividades realizadas durante seu trabalho de conclusão de curso contribuíram para qualificar sua formação profissional,8 ,NA
+121,QE_I52,Numérica,1,Foram oferecidas oportunidades para os estudantes realizarem intercâmbios e/ou estágios no país.,1 ,1 
+121,QE_I52,Numérica,1,Foram oferecidas oportunidades para os estudantes realizarem intercâmbios e/ou estágios no país.,2,2
+121,QE_I52,Numérica,1,Foram oferecidas oportunidades para os estudantes realizarem intercâmbios e/ou estágios no país.,3,3
+121,QE_I52,Numérica,1,Foram oferecidas oportunidades para os estudantes realizarem intercâmbios e/ou estágios no país.,4,4
+121,QE_I52,Numérica,1,Foram oferecidas oportunidades para os estudantes realizarem intercâmbios e/ou estágios no país.,5,5
+121,QE_I52,Numérica,1,Foram oferecidas oportunidades para os estudantes realizarem intercâmbios e/ou estágios no país.,6 ,6 
+121,QE_I52,Numérica,1,Foram oferecidas oportunidades para os estudantes realizarem intercâmbios e/ou estágios no país.,7 ,NA
+121,QE_I52,Numérica,1,Foram oferecidas oportunidades para os estudantes realizarem intercâmbios e/ou estágios no país.,8 ,NA
+122,QE_I53,Numérica,1,Foram oferecidas oportunidades para os estudantes realizarem intercâmbios e/ou estágios fora do país.,1 ,1 
+122,QE_I53,Numérica,1,Foram oferecidas oportunidades para os estudantes realizarem intercâmbios e/ou estágios fora do país.,2,2
+122,QE_I53,Numérica,1,Foram oferecidas oportunidades para os estudantes realizarem intercâmbios e/ou estágios fora do país.,3,3
+122,QE_I53,Numérica,1,Foram oferecidas oportunidades para os estudantes realizarem intercâmbios e/ou estágios fora do país.,4,4
+122,QE_I53,Numérica,1,Foram oferecidas oportunidades para os estudantes realizarem intercâmbios e/ou estágios fora do país.,5,5
+122,QE_I53,Numérica,1,Foram oferecidas oportunidades para os estudantes realizarem intercâmbios e/ou estágios fora do país.,6 ,6 
+122,QE_I53,Numérica,1,Foram oferecidas oportunidades para os estudantes realizarem intercâmbios e/ou estágios fora do país.,7 ,NA
+122,QE_I53,Numérica,1,Foram oferecidas oportunidades para os estudantes realizarem intercâmbios e/ou estágios fora do país.,8 ,NA
+123,QE_I54,Numérica,1,"Os estudantes participaram de avaliações periódicas do curso (disciplinas, atuação dos professores, infraestrutura).",1 ,1 
+123,QE_I54,Numérica,1,"Os estudantes participaram de avaliações periódicas do curso (disciplinas, atuação dos professores, infraestrutura).",2,2
+123,QE_I54,Numérica,1,"Os estudantes participaram de avaliações periódicas do curso (disciplinas, atuação dos professores, infraestrutura).",3,3
+123,QE_I54,Numérica,1,"Os estudantes participaram de avaliações periódicas do curso (disciplinas, atuação dos professores, infraestrutura).",4,4
+123,QE_I54,Numérica,1,"Os estudantes participaram de avaliações periódicas do curso (disciplinas, atuação dos professores, infraestrutura).",5,5
+123,QE_I54,Numérica,1,"Os estudantes participaram de avaliações periódicas do curso (disciplinas, atuação dos professores, infraestrutura).",6 ,6 
+123,QE_I54,Numérica,1,"Os estudantes participaram de avaliações periódicas do curso (disciplinas, atuação dos professores, infraestrutura).",7 ,NA
+123,QE_I54,Numérica,1,"Os estudantes participaram de avaliações periódicas do curso (disciplinas, atuação dos professores, infraestrutura).",8 ,NA
+124,QE_I55,Numérica,1,As avaliações da aprendizagem realizadas durante o curso foram compatíveis com os conteúdos ou temas trabalhados pelos professores.,1 ,1 
+124,QE_I55,Numérica,1,As avaliações da aprendizagem realizadas durante o curso foram compatíveis com os conteúdos ou temas trabalhados pelos professores.,2,2
+124,QE_I55,Numérica,1,As avaliações da aprendizagem realizadas durante o curso foram compatíveis com os conteúdos ou temas trabalhados pelos professores.,3,3
+124,QE_I55,Numérica,1,As avaliações da aprendizagem realizadas durante o curso foram compatíveis com os conteúdos ou temas trabalhados pelos professores.,4,4
+124,QE_I55,Numérica,1,As avaliações da aprendizagem realizadas durante o curso foram compatíveis com os conteúdos ou temas trabalhados pelos professores.,5,5
+124,QE_I55,Numérica,1,As avaliações da aprendizagem realizadas durante o curso foram compatíveis com os conteúdos ou temas trabalhados pelos professores.,6 ,6 
+124,QE_I55,Numérica,1,As avaliações da aprendizagem realizadas durante o curso foram compatíveis com os conteúdos ou temas trabalhados pelos professores.,7 ,NA
+124,QE_I55,Numérica,1,As avaliações da aprendizagem realizadas durante o curso foram compatíveis com os conteúdos ou temas trabalhados pelos professores.,8 ,NA
+125,QE_I56,Numérica,1,Os professores apresentaram disponibilidade para atender os estudantes fora do horário das aulas.,1 ,1 
+125,QE_I56,Numérica,1,Os professores apresentaram disponibilidade para atender os estudantes fora do horário das aulas.,2,2
+125,QE_I56,Numérica,1,Os professores apresentaram disponibilidade para atender os estudantes fora do horário das aulas.,3,3
+125,QE_I56,Numérica,1,Os professores apresentaram disponibilidade para atender os estudantes fora do horário das aulas.,4,4
+125,QE_I56,Numérica,1,Os professores apresentaram disponibilidade para atender os estudantes fora do horário das aulas.,5,5
+125,QE_I56,Numérica,1,Os professores apresentaram disponibilidade para atender os estudantes fora do horário das aulas.,6 ,6 
+125,QE_I56,Numérica,1,Os professores apresentaram disponibilidade para atender os estudantes fora do horário das aulas.,7 ,NA
+125,QE_I56,Numérica,1,Os professores apresentaram disponibilidade para atender os estudantes fora do horário das aulas.,8 ,NA
+126,QE_I57,Numérica,1,Os professores demonstraram domínio dos conteúdos abordados nas disciplinas.,1 ,1 
+126,QE_I57,Numérica,1,Os professores demonstraram domínio dos conteúdos abordados nas disciplinas.,2,2
+126,QE_I57,Numérica,1,Os professores demonstraram domínio dos conteúdos abordados nas disciplinas.,3,3
+126,QE_I57,Numérica,1,Os professores demonstraram domínio dos conteúdos abordados nas disciplinas.,4,4
+126,QE_I57,Numérica,1,Os professores demonstraram domínio dos conteúdos abordados nas disciplinas.,5,5
+126,QE_I57,Numérica,1,Os professores demonstraram domínio dos conteúdos abordados nas disciplinas.,6 ,6 
+126,QE_I57,Numérica,1,Os professores demonstraram domínio dos conteúdos abordados nas disciplinas.,7 ,NA
+126,QE_I57,Numérica,1,Os professores demonstraram domínio dos conteúdos abordados nas disciplinas.,8 ,NA
+127,QE_I58,Numérica,1,"Os professores utilizaram tecnologias da informação e comunicação (TICs) como estratégia de ensino (projetor multimídia, laboratório de informática, ambiente virtual de aprendizagem).",1 ,1 
+127,QE_I58,Numérica,1,"Os professores utilizaram tecnologias da informação e comunicação (TICs) como estratégia de ensino (projetor multimídia, laboratório de informática, ambiente virtual de aprendizagem).",2,2
+127,QE_I58,Numérica,1,"Os professores utilizaram tecnologias da informação e comunicação (TICs) como estratégia de ensino (projetor multimídia, laboratório de informática, ambiente virtual de aprendizagem).",3,3
+127,QE_I58,Numérica,1,"Os professores utilizaram tecnologias da informação e comunicação (TICs) como estratégia de ensino (projetor multimídia, laboratório de informática, ambiente virtual de aprendizagem).",4,4
+127,QE_I58,Numérica,1,"Os professores utilizaram tecnologias da informação e comunicação (TICs) como estratégia de ensino (projetor multimídia, laboratório de informática, ambiente virtual de aprendizagem).",5,5
+127,QE_I58,Numérica,1,"Os professores utilizaram tecnologias da informação e comunicação (TICs) como estratégia de ensino (projetor multimídia, laboratório de informática, ambiente virtual de aprendizagem).",6 ,6 
+127,QE_I58,Numérica,1,"Os professores utilizaram tecnologias da informação e comunicação (TICs) como estratégia de ensino (projetor multimídia, laboratório de informática, ambiente virtual de aprendizagem).",7 ,NA
+127,QE_I58,Numérica,1,"Os professores utilizaram tecnologias da informação e comunicação (TICs) como estratégia de ensino (projetor multimídia, laboratório de informática, ambiente virtual de aprendizagem).",8 ,NA
+128,QE_I59,Numérica,1,A instituição dispôs de quantidade suficiente de funcionários para o apoio administrativo e acadêmico.,1 ,1 
+128,QE_I59,Numérica,1,A instituição dispôs de quantidade suficiente de funcionários para o apoio administrativo e acadêmico.,2,2
+128,QE_I59,Numérica,1,A instituição dispôs de quantidade suficiente de funcionários para o apoio administrativo e acadêmico.,3,3
+128,QE_I59,Numérica,1,A instituição dispôs de quantidade suficiente de funcionários para o apoio administrativo e acadêmico.,4,4
+128,QE_I59,Numérica,1,A instituição dispôs de quantidade suficiente de funcionários para o apoio administrativo e acadêmico.,5,5
+128,QE_I59,Numérica,1,A instituição dispôs de quantidade suficiente de funcionários para o apoio administrativo e acadêmico.,6 ,6 
+128,QE_I59,Numérica,1,A instituição dispôs de quantidade suficiente de funcionários para o apoio administrativo e acadêmico.,7 ,NA
+128,QE_I59,Numérica,1,A instituição dispôs de quantidade suficiente de funcionários para o apoio administrativo e acadêmico.,8 ,NA
+129,QE_I60,Numérica,1,O curso disponibilizou monitores ou tutores para auxiliar os estudantes.,1 ,1 
+129,QE_I60,Numérica,1,O curso disponibilizou monitores ou tutores para auxiliar os estudantes.,2,2
+129,QE_I60,Numérica,1,O curso disponibilizou monitores ou tutores para auxiliar os estudantes.,3,3
+129,QE_I60,Numérica,1,O curso disponibilizou monitores ou tutores para auxiliar os estudantes.,4,4
+129,QE_I60,Numérica,1,O curso disponibilizou monitores ou tutores para auxiliar os estudantes.,5,5
+129,QE_I60,Numérica,1,O curso disponibilizou monitores ou tutores para auxiliar os estudantes.,6 ,6 
+129,QE_I60,Numérica,1,O curso disponibilizou monitores ou tutores para auxiliar os estudantes.,7 ,NA
+129,QE_I60,Numérica,1,O curso disponibilizou monitores ou tutores para auxiliar os estudantes.,8 ,NA
+130,QE_I61,Numérica,1,As condições de infraestrutura das salas de aula foram adequadas.,1 ,1 
+130,QE_I61,Numérica,1,As condições de infraestrutura das salas de aula foram adequadas.,2,2
+130,QE_I61,Numérica,1,As condições de infraestrutura das salas de aula foram adequadas.,3,3
+130,QE_I61,Numérica,1,As condições de infraestrutura das salas de aula foram adequadas.,4,4
+130,QE_I61,Numérica,1,As condições de infraestrutura das salas de aula foram adequadas.,5,5
+130,QE_I61,Numérica,1,As condições de infraestrutura das salas de aula foram adequadas.,6 ,6 
+130,QE_I61,Numérica,1,As condições de infraestrutura das salas de aula foram adequadas.,7 ,NA
+130,QE_I61,Numérica,1,As condições de infraestrutura das salas de aula foram adequadas.,8 ,NA
+131,QE_I62,Numérica,1,Os equipamentos e materiais disponíveis para as aulas práticas foram adequados para a quantidade de estudantes.,1 ,1 
+131,QE_I62,Numérica,1,Os equipamentos e materiais disponíveis para as aulas práticas foram adequados para a quantidade de estudantes.,2,2
+131,QE_I62,Numérica,1,Os equipamentos e materiais disponíveis para as aulas práticas foram adequados para a quantidade de estudantes.,3,3
+131,QE_I62,Numérica,1,Os equipamentos e materiais disponíveis para as aulas práticas foram adequados para a quantidade de estudantes.,4,4
+131,QE_I62,Numérica,1,Os equipamentos e materiais disponíveis para as aulas práticas foram adequados para a quantidade de estudantes.,5,5
+131,QE_I62,Numérica,1,Os equipamentos e materiais disponíveis para as aulas práticas foram adequados para a quantidade de estudantes.,6 ,6 
+131,QE_I62,Numérica,1,Os equipamentos e materiais disponíveis para as aulas práticas foram adequados para a quantidade de estudantes.,7 ,NA
+131,QE_I62,Numérica,1,Os equipamentos e materiais disponíveis para as aulas práticas foram adequados para a quantidade de estudantes.,8 ,NA
+132,QE_I63,Numérica,1,Os ambientes e equipamentos destinados às aulas práticas foram adequados ao curso.,1 ,1 
+132,QE_I63,Numérica,1,Os ambientes e equipamentos destinados às aulas práticas foram adequados ao curso.,2,2
+132,QE_I63,Numérica,1,Os ambientes e equipamentos destinados às aulas práticas foram adequados ao curso.,3,3
+132,QE_I63,Numérica,1,Os ambientes e equipamentos destinados às aulas práticas foram adequados ao curso.,4,4
+132,QE_I63,Numérica,1,Os ambientes e equipamentos destinados às aulas práticas foram adequados ao curso.,5,5
+132,QE_I63,Numérica,1,Os ambientes e equipamentos destinados às aulas práticas foram adequados ao curso.,6 ,6 
+132,QE_I63,Numérica,1,Os ambientes e equipamentos destinados às aulas práticas foram adequados ao curso.,7 ,NA
+132,QE_I63,Numérica,1,Os ambientes e equipamentos destinados às aulas práticas foram adequados ao curso.,8 ,NA
+133,QE_I64,Numérica,1,A biblioteca dispôs das referências bibliográficas que os estudantes necessitaram.,1 ,1 
+133,QE_I64,Numérica,1,A biblioteca dispôs das referências bibliográficas que os estudantes necessitaram.,2,2
+133,QE_I64,Numérica,1,A biblioteca dispôs das referências bibliográficas que os estudantes necessitaram.,3,3
+133,QE_I64,Numérica,1,A biblioteca dispôs das referências bibliográficas que os estudantes necessitaram.,4,4
+133,QE_I64,Numérica,1,A biblioteca dispôs das referências bibliográficas que os estudantes necessitaram.,5,5
+133,QE_I64,Numérica,1,A biblioteca dispôs das referências bibliográficas que os estudantes necessitaram.,6 ,6 
+133,QE_I64,Numérica,1,A biblioteca dispôs das referências bibliográficas que os estudantes necessitaram.,7 ,NA
+133,QE_I64,Numérica,1,A biblioteca dispôs das referências bibliográficas que os estudantes necessitaram.,8 ,NA
+134,QE_I65,Numérica,1,A instituição contou com biblioteca virtual ou conferiu acesso a obras disponíveis em acervos virtuais.,1 ,1 
+134,QE_I65,Numérica,1,A instituição contou com biblioteca virtual ou conferiu acesso a obras disponíveis em acervos virtuais.,2,2
+134,QE_I65,Numérica,1,A instituição contou com biblioteca virtual ou conferiu acesso a obras disponíveis em acervos virtuais.,3,3
+134,QE_I65,Numérica,1,A instituição contou com biblioteca virtual ou conferiu acesso a obras disponíveis em acervos virtuais.,4,4
+134,QE_I65,Numérica,1,A instituição contou com biblioteca virtual ou conferiu acesso a obras disponíveis em acervos virtuais.,5,5
+134,QE_I65,Numérica,1,A instituição contou com biblioteca virtual ou conferiu acesso a obras disponíveis em acervos virtuais.,6 ,6 
+134,QE_I65,Numérica,1,A instituição contou com biblioteca virtual ou conferiu acesso a obras disponíveis em acervos virtuais.,7 ,NA
+134,QE_I65,Numérica,1,A instituição contou com biblioteca virtual ou conferiu acesso a obras disponíveis em acervos virtuais.,8 ,NA
+135,QE_I66,Numérica,1,"As atividades acadêmicas desenvolvidas dentro e fora da sala de aula possibilitaram reflexão, convivência e respeito à diversidade.",1 ,1 
+135,QE_I66,Numérica,1,"As atividades acadêmicas desenvolvidas dentro e fora da sala de aula possibilitaram reflexão, convivência e respeito à diversidade.",2,2
+135,QE_I66,Numérica,1,"As atividades acadêmicas desenvolvidas dentro e fora da sala de aula possibilitaram reflexão, convivência e respeito à diversidade.",3,3
+135,QE_I66,Numérica,1,"As atividades acadêmicas desenvolvidas dentro e fora da sala de aula possibilitaram reflexão, convivência e respeito à diversidade.",4,4
+135,QE_I66,Numérica,1,"As atividades acadêmicas desenvolvidas dentro e fora da sala de aula possibilitaram reflexão, convivência e respeito à diversidade.",5,5
+135,QE_I66,Numérica,1,"As atividades acadêmicas desenvolvidas dentro e fora da sala de aula possibilitaram reflexão, convivência e respeito à diversidade.",6 ,6 
+135,QE_I66,Numérica,1,"As atividades acadêmicas desenvolvidas dentro e fora da sala de aula possibilitaram reflexão, convivência e respeito à diversidade.",7 ,NA
+135,QE_I66,Numérica,1,"As atividades acadêmicas desenvolvidas dentro e fora da sala de aula possibilitaram reflexão, convivência e respeito à diversidade.",8 ,NA
+136,QE_I67,Numérica,1,"A instituição promoveu atividades de cultura, de lazer e de interação social.",1 ,1 
+136,QE_I67,Numérica,1,"A instituição promoveu atividades de cultura, de lazer e de interação social.",2,2
+136,QE_I67,Numérica,1,"A instituição promoveu atividades de cultura, de lazer e de interação social.",3,3
+136,QE_I67,Numérica,1,"A instituição promoveu atividades de cultura, de lazer e de interação social.",4,4
+136,QE_I67,Numérica,1,"A instituição promoveu atividades de cultura, de lazer e de interação social.",5,5
+136,QE_I67,Numérica,1,"A instituição promoveu atividades de cultura, de lazer e de interação social.",6 ,6 
+136,QE_I67,Numérica,1,"A instituição promoveu atividades de cultura, de lazer e de interação social.",7 ,NA
+136,QE_I67,Numérica,1,"A instituição promoveu atividades de cultura, de lazer e de interação social.",8 ,NA
+137,QE_I68,Numérica,1,"A instituição dispôs de refeitório, cantina e banheiros em condições adequadas que atenderam as necessidades dos seus usuários.",1 ,1 
+137,QE_I68,Numérica,1,"A instituição dispôs de refeitório, cantina e banheiros em condições adequadas que atenderam as necessidades dos seus usuários.",2,2
+137,QE_I68,Numérica,1,"A instituição dispôs de refeitório, cantina e banheiros em condições adequadas que atenderam as necessidades dos seus usuários.",3,3
+137,QE_I68,Numérica,1,"A instituição dispôs de refeitório, cantina e banheiros em condições adequadas que atenderam as necessidades dos seus usuários.",4,4
+137,QE_I68,Numérica,1,"A instituição dispôs de refeitório, cantina e banheiros em condições adequadas que atenderam as necessidades dos seus usuários.",5,5
+137,QE_I68,Numérica,1,"A instituição dispôs de refeitório, cantina e banheiros em condições adequadas que atenderam as necessidades dos seus usuários.",6 ,6 
+137,QE_I68,Numérica,1,"A instituição dispôs de refeitório, cantina e banheiros em condições adequadas que atenderam as necessidades dos seus usuários.",7 ,NA
+137,QE_I68,Numérica,1,"A instituição dispôs de refeitório, cantina e banheiros em condições adequadas que atenderam as necessidades dos seus usuários.",8 ,NA
+138,QE_I69,Caracter,1,Você pretende exercer o magistério após o término do curso?,A ,"  Sim, como atuação profissional principal"
+138,QE_I69,Caracter,1,Você pretende exercer o magistério após o término do curso?,B ,"  Sim, mas esta não será a minha atuação profissional principal"
+138,QE_I69,Caracter,1,Você pretende exercer o magistério após o término do curso?,C ,  Não
+138,QE_I69,Caracter,1,Você pretende exercer o magistério após o término do curso?,D ,  Ainda não decidi
+139,QE_I70,Caracter,1,Qual a principal razão para você ter escolhido a Licenciatura?,A ,  Acredito ser minha vocação
+139,QE_I70,Caracter,1,Qual a principal razão para você ter escolhido a Licenciatura?,B ,  Importância da profissão
+139,QE_I70,Caracter,1,Qual a principal razão para você ter escolhido a Licenciatura?,C ,  Tive professores que me inspiraram
+139,QE_I70,Caracter,1,Qual a principal razão para você ter escolhido a Licenciatura?,D ,  É uma boa carreira
+139,QE_I70,Caracter,1,Qual a principal razão para você ter escolhido a Licenciatura?,E ,  É uma opção alternativa de atividade profissional
+139,QE_I70,Caracter,1,Qual a principal razão para você ter escolhido a Licenciatura?,F ,  Não tive condições financeiras de frequentar outro curso
+139,QE_I70,Caracter,1,Qual a principal razão para você ter escolhido a Licenciatura?,G ,  Facilidade de acesso ao local do curso
+139,QE_I70,Caracter,1,Qual a principal razão para você ter escolhido a Licenciatura?,H ,  Não havia oferta de bacharelado na área
+139,QE_I70,Caracter,1,Qual a principal razão para você ter escolhido a Licenciatura?,I ,  Influência da família
+139,QE_I70,Caracter,1,Qual a principal razão para você ter escolhido a Licenciatura?,J ,  Outra razão
+140,QE_I71,Caracter,1,"Você já tem experiência profissional no magistério, qual a forma de contrato? Assinale a alternativa mais relevante para você.",A ,"  Sim, em escola pública, como concursado"
+140,QE_I71,Caracter,1,"Você já tem experiência profissional no magistério, qual a forma de contrato? Assinale a alternativa mais relevante para você.",B ,"  Sim, em escola pública, com contrato temporário (não concursado)"
+140,QE_I71,Caracter,1,"Você já tem experiência profissional no magistério, qual a forma de contrato? Assinale a alternativa mais relevante para você.",C ,"  Sim, em escola privada comunitária como contratado"
+140,QE_I71,Caracter,1,"Você já tem experiência profissional no magistério, qual a forma de contrato? Assinale a alternativa mais relevante para você.",D ,"  Sim, em escola privada confessional como contratado"
+140,QE_I71,Caracter,1,"Você já tem experiência profissional no magistério, qual a forma de contrato? Assinale a alternativa mais relevante para você.",E ,"  Sim, em escola privada particular como contratado"
+140,QE_I71,Caracter,1,"Você já tem experiência profissional no magistério, qual a forma de contrato? Assinale a alternativa mais relevante para você.",F ,"  Sim, em cursos livres (idiomas, informática, aulas particulares), como contratado"
+140,QE_I71,Caracter,1,"Você já tem experiência profissional no magistério, qual a forma de contrato? Assinale a alternativa mais relevante para você.",G ,"  Sim, estágio remunerado"
+140,QE_I71,Caracter,1,"Você já tem experiência profissional no magistério, qual a forma de contrato? Assinale a alternativa mais relevante para você.",H ,"  Sim, como voluntário"
+140,QE_I71,Caracter,1,"Você já tem experiência profissional no magistério, qual a forma de contrato? Assinale a alternativa mais relevante para você.",I ,  Não tenho experiência no magistério
+141,QE_I72,Caracter,1,"Se você tem experiência no magistério, em qual etapa/modalidade atuou? Assinale a alternativa mais relevante para você.",A ,  Educação Infantil
+141,QE_I72,Caracter,1,"Se você tem experiência no magistério, em qual etapa/modalidade atuou? Assinale a alternativa mais relevante para você.",B ,  Ensino Fundamental – anos iniciais
+141,QE_I72,Caracter,1,"Se você tem experiência no magistério, em qual etapa/modalidade atuou? Assinale a alternativa mais relevante para você.",C ,  Ensino Fundamental – anos finais
+141,QE_I72,Caracter,1,"Se você tem experiência no magistério, em qual etapa/modalidade atuou? Assinale a alternativa mais relevante para você.",D ,  Ensino Médio
+141,QE_I72,Caracter,1,"Se você tem experiência no magistério, em qual etapa/modalidade atuou? Assinale a alternativa mais relevante para você.",E ,  Educação Profissional Técnica de Nível Médio ou Médio Integrado
+141,QE_I72,Caracter,1,"Se você tem experiência no magistério, em qual etapa/modalidade atuou? Assinale a alternativa mais relevante para você.",F ,  Educação de Jovens e Adultos
+141,QE_I72,Caracter,1,"Se você tem experiência no magistério, em qual etapa/modalidade atuou? Assinale a alternativa mais relevante para você.",G ,  Ensino Superior
+141,QE_I72,Caracter,1,"Se você tem experiência no magistério, em qual etapa/modalidade atuou? Assinale a alternativa mais relevante para você.",H ,"  Outra modalidade de ensino (indígena, quilombola, do campo, especial, entre outras) "
+141,QE_I72,Caracter,1,"Se você tem experiência no magistério, em qual etapa/modalidade atuou? Assinale a alternativa mais relevante para você.",I ,  Não tenho experiência no magistério
+142,QE_I73,Caracter,1,Em que instituição você realizou seu estágio curricular obrigatório? Assinale a alternativa mais relevante para você.,A ,  Escola pública
+142,QE_I73,Caracter,1,Em que instituição você realizou seu estágio curricular obrigatório? Assinale a alternativa mais relevante para você.,B ,  Escola privada comunitária
+142,QE_I73,Caracter,1,Em que instituição você realizou seu estágio curricular obrigatório? Assinale a alternativa mais relevante para você.,C ,  Escola privada confessional
+142,QE_I73,Caracter,1,Em que instituição você realizou seu estágio curricular obrigatório? Assinale a alternativa mais relevante para você.,D ,  Escola privada particular
+142,QE_I73,Caracter,1,Em que instituição você realizou seu estágio curricular obrigatório? Assinale a alternativa mais relevante para você.,E ,  Em outro tipo de instituição não especificado
+142,QE_I73,Caracter,1,Em que instituição você realizou seu estágio curricular obrigatório? Assinale a alternativa mais relevante para você.,F ,  Não realizei o estágio curricular obrigatório
+143,QE_I74,Caracter,1,Em qual turno você realizou o estágio curricular obrigatório?,A ,  Matutino
+143,QE_I74,Caracter,1,Em qual turno você realizou o estágio curricular obrigatório?,B ,  Vespertino
+143,QE_I74,Caracter,1,Em qual turno você realizou o estágio curricular obrigatório?,C ,  Noturno
+143,QE_I74,Caracter,1,Em qual turno você realizou o estágio curricular obrigatório?,D ,  Integral
+143,QE_I74,Caracter,1,Em qual turno você realizou o estágio curricular obrigatório?,E ,  Não realizei estágio curricular obrigatório
+144,QE_I75,Caracter,1,Em qual etapa/modalidade de ensino você realizou seu estágio curricular obrigatório?,A ,  Educação Infantil
+144,QE_I75,Caracter,1,Em qual etapa/modalidade de ensino você realizou seu estágio curricular obrigatório?,B ,  Ensino Fundamental – anos iniciais
+144,QE_I75,Caracter,1,Em qual etapa/modalidade de ensino você realizou seu estágio curricular obrigatório?,C ,  Ensino Fundamental – anos finais
+144,QE_I75,Caracter,1,Em qual etapa/modalidade de ensino você realizou seu estágio curricular obrigatório?,D ,  Ensino Médio
+144,QE_I75,Caracter,1,Em qual etapa/modalidade de ensino você realizou seu estágio curricular obrigatório?,E ,  Educação Profissional Técnica de Nível Médio ou Médio Integrado
+144,QE_I75,Caracter,1,Em qual etapa/modalidade de ensino você realizou seu estágio curricular obrigatório?,F ,  Educação de Jovens e Adultos
+144,QE_I75,Caracter,1,Em qual etapa/modalidade de ensino você realizou seu estágio curricular obrigatório?,G ,"  Outra modalidade de ensino (indígena, quilombola, do campo, especial, entre outras)"
+144,QE_I75,Caracter,1,Em qual etapa/modalidade de ensino você realizou seu estágio curricular obrigatório?,H ,"  Em atividades escolares de natureza complementar (atendimento especializado, atividade de apoio, atividade artísticas, atividades esportivas)"
+144,QE_I75,Caracter,1,Em qual etapa/modalidade de ensino você realizou seu estágio curricular obrigatório?,I ,  Não realizei estágio curricular obrigatório
+145,QE_I76,Caracter,1,Quantas horas de estágio curricular obrigatório você integralizou?,A ,  Até 100
+145,QE_I76,Caracter,1,Quantas horas de estágio curricular obrigatório você integralizou?,B ,  De 101 a 200
+145,QE_I76,Caracter,1,Quantas horas de estágio curricular obrigatório você integralizou?,C ,  De 201 a 300
+145,QE_I76,Caracter,1,Quantas horas de estágio curricular obrigatório você integralizou?,D ,  De 301 a 400
+145,QE_I76,Caracter,1,Quantas horas de estágio curricular obrigatório você integralizou?,E ,  Mais de 400
+145,QE_I76,Caracter,1,Quantas horas de estágio curricular obrigatório você integralizou?,F ,  Não realizei estágio curricular obrigatório
+146,QE_I77,Caracter,1,Onde você pretende atuar daqui a cinco anos?,A ,"  Em escola pública, como professor"
+146,QE_I77,Caracter,1,Onde você pretende atuar daqui a cinco anos?,B ,"  Em escola privada, como professor"
+146,QE_I77,Caracter,1,Onde você pretende atuar daqui a cinco anos?,C ,"  Em escola/instituição pública, na gestão educacional"
+146,QE_I77,Caracter,1,Onde você pretende atuar daqui a cinco anos?,D ,"  Em escola/instituição privada, na gestão educacional"
+146,QE_I77,Caracter,1,Onde você pretende atuar daqui a cinco anos?,E ,  Em outro campo de atuação profissional não vinculado à educação
+147,QE_I78,Caracter,1,A fundamentação teórica oferecida no curso de Licenciatura foi suficiente para sua compreensão sobre a educação escolar e sua preparação para o exercício da docência?,A ,"  Sim, completamente"
+147,QE_I78,Caracter,1,A fundamentação teórica oferecida no curso de Licenciatura foi suficiente para sua compreensão sobre a educação escolar e sua preparação para o exercício da docência?,B ,"  Sim, em grande parte"
+147,QE_I78,Caracter,1,A fundamentação teórica oferecida no curso de Licenciatura foi suficiente para sua compreensão sobre a educação escolar e sua preparação para o exercício da docência?,C ,  Apenas em algumas disciplinas/situações
+147,QE_I78,Caracter,1,A fundamentação teórica oferecida no curso de Licenciatura foi suficiente para sua compreensão sobre a educação escolar e sua preparação para o exercício da docência?,D ,  Não
+148,QE_I79,Caracter,1,"Você vivenciou, durante o curso de graduação, experiências pedagógicas que gostaria de proporcionar aos seus futuros alunos?",A ,"  Sim, durante todo o tempo"
+148,QE_I79,Caracter,1,"Você vivenciou, durante o curso de graduação, experiências pedagógicas que gostaria de proporcionar aos seus futuros alunos?",B ,"  Sim, em grande parte do tempo"
+148,QE_I79,Caracter,1,"Você vivenciou, durante o curso de graduação, experiências pedagógicas que gostaria de proporcionar aos seus futuros alunos?",C ,  Apenas em algumas disciplinas/situações
+148,QE_I79,Caracter,1,"Você vivenciou, durante o curso de graduação, experiências pedagógicas que gostaria de proporcionar aos seus futuros alunos?",D ,  Não
+149,QE_I80,Caracter,1,"No decorrer do estágio curricular obrigatório, você teve suficiente orientação e supervisão de professores do seu curso?",A ,"  Sim, durante todo o tempo"
+149,QE_I80,Caracter,1,"No decorrer do estágio curricular obrigatório, você teve suficiente orientação e supervisão de professores do seu curso?",B ,"  Sim, em grande parte do tempo"
+149,QE_I80,Caracter,1,"No decorrer do estágio curricular obrigatório, você teve suficiente orientação e supervisão de professores do seu curso?",C ,  Apenas em algumas disciplinas/situações
+149,QE_I80,Caracter,1,"No decorrer do estágio curricular obrigatório, você teve suficiente orientação e supervisão de professores do seu curso?",D ,  Não
+150,QE_I81,Caracter,1,"No decorrer do estágio curricular obrigatório, você teve adequado acompanhamento de um ou mais professores da instituição em que estagiou?",A ,"  Sim, durante todo o tempo"
+150,QE_I81,Caracter,1,"No decorrer do estágio curricular obrigatório, você teve adequado acompanhamento de um ou mais professores da instituição em que estagiou?",B ,"  Sim, em grande parte do tempo"
+150,QE_I81,Caracter,1,"No decorrer do estágio curricular obrigatório, você teve adequado acompanhamento de um ou mais professores da instituição em que estagiou?",C ,  Apenas em algumas disciplinas/situações
+150,QE_I81,Caracter,1,"No decorrer do estágio curricular obrigatório, você teve adequado acompanhamento de um ou mais professores da instituição em que estagiou?",D ,  Não

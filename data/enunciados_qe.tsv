@@ -1,0 +1,26 @@
+70	QE_I01	Caracter	1	Qual o seu estado civil?
+71	QE_I02	Caracter	1	Qual é a sua cor ou raça?
+72	QE_I03	Caracter	1	Qual a sua nacionalidade?
+73	QE_I04	Caracter	1	Até que etapa de escolarização seu pai concluiu?
+74	QE_I05	Caracter	1	Até que etapa de escolarização sua mãe concluiu?
+75	QE_I06	Caracter	1	Onde e com quem você mora atualmente?
+76	QE_I07	Caracter	1	Quantas pessoas da sua família moram com você? Considere seus pais, irmãos, cônjuge, filhos e outros parentes que moram na mesma casa com você.
+77	QE_I08	Caracter	1	Qual a renda total de sua família, incluindo seus rendimentos?
+78	QE_I09	Caracter	1	Qual alternativa a seguir melhor descreve sua situação financeira (incluindo bolsas)?
+79	QE_I10	Caracter	1	Qual alternativa a seguir melhor descreve sua situação de trabalho (exceto estágio ou bolsas)?
+80	QE_I11	Caracter	1	Que tipo de bolsa de estudos ou financiamento do curso você recebeu para custear todas ou a maior parte das mensalidades? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.
+81	QE_I12	Caracter	1	Ao longo da sua trajetória acadêmica, você recebeu algum tipo de auxílio permanência? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.
+82	QE_I13	Caracter	1	Ao longo da sua trajetória acadêmica, você recebeu algum tipo de bolsa acadêmica? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.
+83	QE_I14	Caracter	1	Durante o curso de graduação você participou de programas e/ou atividades curriculares no exterior?
+84	QE_I15	Caracter	1	Seu ingresso no curso de graduação se deu por meio de políticas de ação afirmativa ou inclusão social?
+85	QE_I16	Numérica	2	Em que unidade da Federação você concluiu o ensino médio?
+86	QE_I17	Caracter	1	Em que tipo de escola você cursou o ensino médio?
+87	QE_I18	Caracter	1	Qual modalidade de ensino médio você concluiu?
+88	QE_I19	Caracter	1	Quem lhe deu maior incentivo para cursar a graduação?
+89	QE_I20	Caracter	1	Algum dos grupos abaixo foi determinante para você enfrentar dificuldades durante seu curso superior e concluí-lo?
+90	QE_I21	Caracter	1	Alguém em sua família concluiu um curso superior?
+91	QE_I22	Caracter	1	Excetuando-se os livros indicados na bibliografia do seu curso, quantos livros você leu neste ano?
+92	QE_I23	Caracter	1	Quantas horas por semana, aproximadamente, você dedicou aos estudos, excetuando as horas de aula?
+93	QE_I24	Caracter	1	Você teve oportunidade de aprendizado de idioma estrangeiro na Instituição?
+94	QE_I25	Caracter	1	Qual o principal motivo para você ter escolhido este curso?
+95	QE_I26	Caracter	1	Qual a principal razão para você ter escolhido a sua instituição de educação superior?

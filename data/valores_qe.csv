@@ -1,0 +1,586 @@
+﻿i;pergunta;tipo;tamanho;enunciado;valores
+70;QE_I01;Caracter;1;Qual o seu estado civil?;"A = Solteiro(a).
+B = Casado(a).
+C = Separado(a) judicialmente/divorciado(a).
+D = Viúvo(a).
+E = Outro."
+71;QE_I02;Caracter;1;Qual é a sua cor ou raça?;"A = Branca.
+B = Preta.
+C = Amarela.
+D = Parda.
+E = Indígena.
+F = Não quero declarar."
+72;QE_I03;Caracter;1;Qual a sua nacionalidade?;"A = Brasileira.
+B = Brasileira naturalizada.
+C = Estrangeira."
+73;QE_I04;Caracter;1;Até que etapa de escolarização seu pai concluiu?;"A = Nenhuma.
+B = Ensino Fundamental: 1º ao 5º ano (1ª a 4ª série).
+C = Ensino Fundamental: 6º ao 9º ano (5ª a 8ª série).
+D = Ensino Médio.
+E = Ensino Superior - Graduação.
+F = Pós-graduação."
+74;QE_I05;Caracter;1;Até que etapa de escolarização sua mãe concluiu?;"A = Nenhuma.
+B = Ensino fundamental: 1º ao 5º ano (1ª a 4ª série).
+C = Ensino fundamental: 6º ao 9º ano (5ª a 8ª série).
+D = Ensino médio.
+E = Ensino Superior - Graduação.
+F = Pós-graduação."
+75;QE_I06;Caracter;1;Onde e com quem você mora atualmente?;"A = Em casa ou apartamento, sozinho.
+B = Em casa ou apartamento, com pais e/ou parentes.
+C = Em casa ou apartamento, com cônjuge e/ou filhos.
+D = Em casa ou apartamento, com outras pessoas (incluindo república).
+E = Em alojamento universitário da própria instituição.
+F = Em outros tipos de habitação individual ou coletiva (hotel, hospedaria, pensão ou outro)"
+76;QE_I07;Caracter;1;Quantas pessoas da sua família moram com você? Considere seus pais, irmãos, cônjuge, filhos e outros parentes que moram na mesma casa com você.;"A = Nenhuma.
+B = Uma.
+C = Duas.
+D = Três.
+E = Quatro.
+F = Cinco.
+G = Seis.
+H = Sete ou mais."
+77;QE_I08;Caracter;1;Qual a renda total de sua família, incluindo seus rendimentos?;"A = Até 1,5 salário mínimo (até R$ 1.405,50).
+B = De 1,5 a 3 salários mínimos (R$ 1.405,51 a R$ 2.811,00).
+C = De 3 a 4,5 salários mínimos (R$ 2.811,01 a R$ 4.216,50).
+D = De 4,5 a 6 salários mínimos (R$ 4.216,51 a R$ 5.622,00).
+E = De 6 a 10 salários mínimos (R$ 5. 622,01 a R$ 9.370,00).
+F = De 10 a 30 salários mínimos (R$ 9.370,01 a R$ 28.110,00).
+G = Acima de 30 salários mínimos (mais de R$ 28.110,00)."
+78;QE_I09;Caracter;1;Qual alternativa a seguir melhor descreve sua situação financeira (incluindo bolsas)?;"A = Não tenho renda e meus gastos são financiados por programas governamentais.
+B = Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas.
+C = Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos.
+D = Tenho renda e não preciso de ajuda para financiar meus gastos.
+E = Tenho renda e contribuo com o sustento da família.
+F = Sou o principal responsável pelo sustento da família."
+79;QE_I10;Caracter;1;Qual alternativa a seguir melhor descreve sua situação de trabalho (exceto estágio ou bolsas)?;"A = Não estou trabalhando.
+B = Trabalho eventualmente.
+C = Trabalho até 20 horas semanais.
+D = Trabalho de 21 a 39 horas semanais.
+E = Trabalho 40 horas semanais ou mais."
+80;QE_I11;Caracter;1;Que tipo de bolsa de estudos ou financiamento do curso você recebeu para custear todas ou a maior parte das mensalidades? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.;"A = Nenhum, pois meu curso é gratuito.
+B = Nenhum, embora meu curso não seja gratuito.
+C = ProUni integral.
+D = ProUni parcial, apenas.
+E = FIES, apenas.
+F = ProUni Parcial e FIES.
+G = Bolsa oferecida por governo estadual, distrital ou municipal.
+H = Bolsa oferecida pela própria instituição.
+I = Bolsa oferecida por outra entidade (empresa, ONG, outra).
+J = Financiamento oferecido pela própria instituição.
+K = Financiamento bancário."
+81;QE_I12;Caracter;1;Ao longo da sua trajetória acadêmica, você recebeu algum tipo de auxílio permanência? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.;"A = Nenhum.
+B = Auxílio moradia.
+C = Auxílio alimentação.
+D = Auxílio moradia e alimentação.
+E = Auxílio permanência.
+F = Outro tipo de auxílio."
+82;QE_I13;Caracter;1;Ao longo da sua trajetória acadêmica, você recebeu algum tipo de bolsa acadêmica? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.;"A = Nenhum.
+B = Bolsa de iniciação científica.
+C = Bolsa de extensão.
+D = Bolsa de monitoria/tutoria.
+E = Bolsa PET.
+F = Outro tipo de bolsa acadêmica."
+83;QE_I14;Caracter;1;Durante o curso de graduação você participou de programas e/ou atividades curriculares no exterior?;"A = Não participei.
+B = Sim, Programa Ciência sem Fronteiras.
+C = Sim, programa de intercâmbio financiado pelo Governo Federal (Marca; Brafitec; PLI; outro).
+D = Sim, programa de intercâmbio financiado pelo Governo Estadual.
+E = Sim, programa de intercâmbio da minha instituição.
+F = Sim, outro intercâmbio não institucional."
+84;QE_I15;Caracter;1;Seu ingresso no curso de graduação se deu por meio de políticas de ação afirmativa ou inclusão social?;"A = Não.
+B = Sim, por critério étnico-racial.
+C = Sim, por critério de renda.
+D = Sim, por ter estudado em escola pública ou particular com bolsa de estudos.
+E = Sim, por sistema que combina dois ou mais critérios anteriores.
+F = Sim, por sistema diferente dos anteriores."
+85;QE_I16;Numérica;2;Em que unidade da Federação você concluiu o ensino médio?;"11 = Rondônia (RO)                                                28 = Sergipe (SE)
+12 = Acre (AC)                                                           29 = Bahia (BA)
+13 = Amazonas (AM)                                              31 = Minas gerais (MG)
+14 = Roraima (RR)                                                    32 = Espírito santo (ES)
+15 = Pará (PA)                                                            33 = Rio de janeiro (RJ)
+16 = Amapa (AP)                                                      35 = São paulo (SP)
+17 = Tocantins (TO)                                                 41 = Paraná (PR)
+21 = Maranhão (MA)                                               42 = Santa catarina (SC)
+22 = Piauí (PI)                                                             43 = Rio grande do sul (RS)
+23 = Ceará (CE)                                                          50 = Mato grosso do sul (MS)
+24 = Rio grande do norte (RN)                            51 = Mato grosso (MT)
+25 = Paraíba (PB)                                                      52 = Goiás (GO)
+26 = Pernambuco (PE)                                           53 = Distrito federal (DF)
+27 = Alagoas (AL)                                                     99 = Não se aplica "
+86;QE_I17;Caracter;1;Em que tipo de escola você cursou o ensino médio?;"A = Todo em escola pública.
+B = Todo em escola privada (particular).
+C = Todo no exterior.
+D = A maior parte em escola pública.
+E = A maior parte em escola privada (particular).
+F = Parte no Brasil e parte no exterior."
+87;QE_I18;Caracter;1;Qual modalidade de ensino médio você concluiu?;"A = Ensino médio tradicional.
+B = Profissionalizante técnico (eletrônica, contabilidade, agrícola, outro).
+C = Profissionalizante magistério (Curso Normal).
+D = Educação de Jovens e Adultos (EJA) e/ou Supletivo.
+E = Outra modalidade."
+88;QE_I19;Caracter;1;Quem lhe deu maior incentivo para cursar a graduação?;"A = Ninguém.
+B = Pais.
+C = Outros membros da família que não os pais.
+D = Professores.
+E = Líder ou representante religioso.
+F = Colegas/Amigos.
+G = Outras pessoas."
+89;QE_I20;Caracter;1;Algum dos grupos abaixo foi determinante para você enfrentar dificuldades durante seu curso superior e concluí-lo?;"A = Não tive dificuldade.
+B = Não recebi apoio para enfrentar dificuldades.
+C = Pais.
+D = Avós.
+E = Irmãos, primos ou tios.
+F = Líder ou representante religioso.
+G = Colegas de curso ou amigos.
+H = Professores do curso.
+I = Profissionais do serviço de apoio ao estudante da IES.
+J = Colegas de trabalho.
+K = Outro grupo."
+90;QE_I21;Caracter;1;Alguém em sua família concluiu um curso superior?;"A = Sim.
+B = Não."
+91;QE_I22;Caracter;1;Excetuando-se os livros indicados na bibliografia do seu curso, quantos livros você leu neste ano?;"A = Nenhum.
+B = Um ou dois.
+C = De três a cinco.
+D = De seis a oito.
+E = Mais de oito."
+92;QE_I23;Caracter;1;Quantas horas por semana, aproximadamente, você dedicou aos estudos, excetuando as horas de aula?;"A = Nenhuma, apenas assisto às aulas.
+B = De uma a três.
+C = De quatro a sete.
+D = De oito a doze.
+E = Mais de doze."
+93;QE_I24;Caracter;1;Você teve oportunidade de aprendizado de idioma estrangeiro na Instituição?;"A = Sim, somente na modalidade presencial.
+B = Sim, somente na modalidade semipresencial.
+C = Sim, parte na modalidade presencial e parte na modalidade semipresencial.
+D = Sim, na modalidade a distância.
+E = Não."
+94;QE_I25;Caracter;1;Qual o principal motivo para você ter escolhido este curso?;"A = Inserção no mercado de trabalho.
+B = Influência familiar.
+C = Valorização profissional.
+D = Prestígio Social.
+E = Vocação.
+F = Oferecido na modalidade a distância.
+G = Baixa concorrência para ingresso.
+H = Outro motivo."
+95;QE_I26;Caracter;1;Qual a principal razão para você ter escolhido a sua instituição de educação superior?;"A = Gratuidade.
+B = Preço da mensalidade.
+C = Proximidade da minha residência.
+D = Proximidade do meu trabalho.
+E = Facilidade de acesso.
+F = Qualidade/reputação.
+G = Foi a única onde tive aprovação.
+H = Possibilidade de ter bolsa de estudo.
+I = Outro motivo."
+96;QE_I27;Numérica;1;As disciplinas cursadas contribuíram para sua formação integral, como cidadão e profissional.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+97;QE_I28;Numérica;1;Os conteúdos abordados nas disciplinas do curso favoreceram sua atuação em estágios ou em atividades de iniciação profissional.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+98;QE_I29;Numérica;1;As metodologias de ensino utilizadas no curso desafiaram você a aprofundar conhecimentos e desenvolver competências reflexivas e críticas.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+99;QE_I30;Numérica;1;O curso propiciou experiências de aprendizagem inovadoras.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+100;QE_I31;Numérica;1;O curso contribuiu para o desenvolvimento da sua consciência ética para o exercício profissional.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+101;QE_I32;Numérica;1;No curso você teve oportunidade de aprender a trabalhar em equipe.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+102;QE_I33;Numérica;1;O curso possibilitou aumentar sua capacidade de reflexão e argumentação.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+103;QE_I34;Numérica;1;O curso promoveu o desenvolvimento da sua capacidade de pensar criticamente, analisar e refletir sobre soluções para problemas da sociedade.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+104;QE_I35;Numérica;1;O curso contribuiu para você ampliar sua capacidade de comunicação nas formas oral e escrita.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+105;QE_I36;Numérica;1;O curso contribuiu para o desenvolvimento da sua capacidade de aprender e atualizar-se permanentemente.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+106;QE_I37;Numérica;1;As relações professor-aluno ao longo do curso estimularam você a estudar e aprender.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+107;QE_I38;Numérica;1;Os planos de ensino apresentados pelos professores contribuíram para o desenvolvimento das atividades acadêmicas e para seus estudos.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+108;QE_I39;Numérica;1;As referências bibliográficas indicadas pelos professores nos planos de ensino contribuíram para seus estudos e aprendizagens.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+109;QE_I40;Numérica;1;Foram oferecidas oportunidades para os estudantes superarem dificuldades relacionadas ao processo de formação.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+110;QE_I41;Numérica;1;A coordenação do curso esteve disponível para orientação acadêmica dos estudantes.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+111;QE_I42;Numérica;1;O curso exigiu de você organização e dedicação frequente aos estudos.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+112;QE_I43;Numérica;1;Foram oferecidas oportunidades para os estudantes participarem de programas, projetos ou atividades de extensão universitária.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+113;QE_I44;Numérica;1;Foram oferecidas oportunidades para os estudantes participarem de projetos de iniciação científica e de atividades que estimularam a investigação acadêmica.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+114;QE_I45;Numérica;1;O curso ofereceu condições para os estudantes participarem de eventos internos e/ou externos à instituição.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+115;QE_I46;Numérica;1;A instituição ofereceu oportunidades para os estudantes atuarem como representantes em órgãos colegiados.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+116;QE_I47;Numérica;1;O curso favoreceu a articulação do conhecimento teórico com atividades práticas.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+117;QE_I48;Numérica;1;As atividades práticas foram suficientes para relacionar os conteúdos do curso com a prática, contribuindo para sua formação profissional.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+118;QE_I49;Numérica;1;O curso propiciou acesso a conhecimentos atualizados e/ou contemporâneos em sua área de formação.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+119;QE_I50;Numérica;1;O estágio supervisionado proporcionou experiências diversificadas para a sua formação.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+120;QE_I51;Numérica;1;As atividades realizadas durante seu trabalho de conclusão de curso contribuíram para qualificar sua formação profissional;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+121;QE_I52;Numérica;1;Foram oferecidas oportunidades para os estudantes realizarem intercâmbios e/ou estágios no país.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+122;QE_I53;Numérica;1;Foram oferecidas oportunidades para os estudantes realizarem intercâmbios e/ou estágios fora do país.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+123;QE_I54;Numérica;1;Os estudantes participaram de avaliações periódicas do curso (disciplinas, atuação dos professores, infraestrutura).;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+124;QE_I55;Numérica;1;As avaliações da aprendizagem realizadas durante o curso foram compatíveis com os conteúdos ou temas trabalhados pelos professores.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+125;QE_I56;Numérica;1;Os professores apresentaram disponibilidade para atender os estudantes fora do horário das aulas.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+126;QE_I57;Numérica;1;Os professores demonstraram domínio dos conteúdos abordados nas disciplinas.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+127;QE_I58;Numérica;1;Os professores utilizaram tecnologias da informação e comunicação (TICs) como estratégia de ensino (projetor multimídia, laboratório de informática, ambiente virtual de aprendizagem).;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+128;QE_I59;Numérica;1;A instituição dispôs de quantidade suficiente de funcionários para o apoio administrativo e acadêmico.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+129;QE_I60;Numérica;1;O curso disponibilizou monitores ou tutores para auxiliar os estudantes.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+130;QE_I61;Numérica;1;As condições de infraestrutura das salas de aula foram adequadas.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+131;QE_I62;Numérica;1;Os equipamentos e materiais disponíveis para as aulas práticas foram adequados para a quantidade de estudantes.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+132;QE_I63;Numérica;1;Os ambientes e equipamentos destinados às aulas práticas foram adequados ao curso.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+133;QE_I64;Numérica;1;A biblioteca dispôs das referências bibliográficas que os estudantes necessitaram.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+134;QE_I65;Numérica;1;A instituição contou com biblioteca virtual ou conferiu acesso a obras disponíveis em acervos virtuais.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+135;QE_I66;Numérica;1;As atividades acadêmicas desenvolvidas dentro e fora da sala de aula possibilitaram reflexão, convivência e respeito à diversidade.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+136;QE_I67;Numérica;1;A instituição promoveu atividades de cultura, de lazer e de interação social.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+137;QE_I68;Numérica;1;A instituição dispôs de refeitório, cantina e banheiros em condições adequadas que atenderam as necessidades dos seus usuários.;"1 = Discordo Totalmente
+2
+3
+4
+5
+6 = Concordo Totalmente
+7 = Não sei responder.
+8 = Não se aplica."
+138;QE_I69;Caracter;1;Você pretende exercer o magistério após o término do curso?;"A =  Sim, como atuação profissional principal.
+B =  Sim, mas esta não será a minha atuação profissional principal.
+C =  Não.
+D =  Ainda não decidi."
+139;QE_I70;Caracter;1;Qual a principal razão para você ter escolhido a Licenciatura?;"A =  Acredito ser minha vocação.
+B =  Importância da profissão.
+C =  Tive professores que me inspiraram.
+D =  É uma boa carreira.
+E =  É uma opção alternativa de atividade profissional.
+F =  Não tive condições financeiras de frequentar outro curso.
+G =  Facilidade de acesso ao local do curso.
+H =  Não havia oferta de bacharelado na área.
+I =  Influência da família.
+J =  Outra razão."
+140;QE_I71;Caracter;1;Você já tem experiência profissional no magistério, qual a forma de contrato? Assinale a alternativa mais relevante para você.;"A =  Sim, em escola pública, como concursado.
+B =  Sim, em escola pública, com contrato temporário (não concursado).
+C =  Sim, em escola privada comunitária como contratado.
+D =  Sim, em escola privada confessional como contratado.
+E =  Sim, em escola privada particular como contratado.
+F =  Sim, em cursos livres (idiomas, informática, aulas particulares), como contratado.
+G =  Sim, estágio remunerado.
+H =  Sim, como voluntário.
+I =  Não tenho experiência no magistério."
+141;QE_I72;Caracter;1;Se você tem experiência no magistério, em qual etapa/modalidade atuou? Assinale a alternativa mais relevante para você.;"A =  Educação Infantil.
+B =  Ensino Fundamental – anos iniciais.
+C =  Ensino Fundamental – anos finais.
+D =  Ensino Médio.
+E =  Educação Profissional Técnica de Nível Médio ou Médio Integrado.
+F =  Educação de Jovens e Adultos.
+G =  Ensino Superior.
+H =  Outra modalidade de ensino (indígena, quilombola, do campo, especial, entre outras). 
+I =  Não tenho experiência no magistério."
+142;QE_I73;Caracter;1;Em que instituição você realizou seu estágio curricular obrigatório? Assinale a alternativa mais relevante para você.;"A =  Escola pública.
+B =  Escola privada comunitária.
+C =  Escola privada confessional.
+D =  Escola privada particular.
+E =  Em outro tipo de instituição não especificado.
+F =  Não realizei o estágio curricular obrigatório."
+143;QE_I74;Caracter;1;Em qual turno você realizou o estágio curricular obrigatório?;"A =  Matutino.
+B =  Vespertino.
+C =  Noturno.
+D =  Integral.
+E =  Não realizei estágio curricular obrigatório."
+144;QE_I75;Caracter;1;Em qual etapa/modalidade de ensino você realizou seu estágio curricular obrigatório?;"A =  Educação Infantil.
+B =  Ensino Fundamental – anos iniciais.
+C =  Ensino Fundamental – anos finais.
+D =  Ensino Médio.
+E =  Educação Profissional Técnica de Nível Médio ou Médio Integrado.
+F =  Educação de Jovens e Adultos.
+G =  Outra modalidade de ensino (indígena, quilombola, do campo, especial, entre outras)
+H =  Em atividades escolares de natureza complementar (atendimento especializado, atividade de apoio, atividade artísticas, atividades esportivas).
+I =  Não realizei estágio curricular obrigatório."
+145;QE_I76;Caracter;1;Quantas horas de estágio curricular obrigatório você integralizou?;"A =  Até 100.
+B =  De 101 a 200.
+C =  De 201 a 300.
+D =  De 301 a 400.
+E =  Mais de 400.
+F =  Não realizei estágio curricular obrigatório."
+146;QE_I77;Caracter;1;Onde você pretende atuar daqui a cinco anos?;"A =  Em escola pública, como professor.
+B =  Em escola privada, como professor.
+C =  Em escola/instituição pública, na gestão educacional.
+D =  Em escola/instituição privada, na gestão educacional.
+E =  Em outro campo de atuação profissional não vinculado à educação."
+147;QE_I78;Caracter;1;A fundamentação teórica oferecida no curso de Licenciatura foi suficiente para sua compreensão sobre a educação escolar e sua preparação para o exercício da docência?;"A =  Sim, completamente.
+B =  Sim, em grande parte.
+C =  Apenas em algumas disciplinas/situações.
+D =  Não."
+148;QE_I79;Caracter;1;Você vivenciou, durante o curso de graduação, experiências pedagógicas que gostaria de proporcionar aos seus futuros alunos?;"A =  Sim, durante todo o tempo.
+B =  Sim, em grande parte do tempo.
+C =  Apenas em algumas disciplinas/situações.
+D =  Não."
+149;QE_I80;Caracter;1;No decorrer do estágio curricular obrigatório, você teve suficiente orientação e supervisão de professores do seu curso?;"A =  Sim, durante todo o tempo.
+B =  Sim, em grande parte do tempo.
+C =  Apenas em algumas disciplinas/situações.
+D =  Não."
+150;QE_I81;Caracter;1;No decorrer do estágio curricular obrigatório, você teve adequado acompanhamento de um ou mais professores da instituição em que estagiou?;"A =  Sim, durante todo o tempo.
+B =  Sim, em grande parte do tempo.
+C =  Apenas em algumas disciplinas/situações.
+D =  Não."
