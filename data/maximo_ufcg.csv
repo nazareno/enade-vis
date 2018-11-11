@@ -1,182 +1,259 @@
-CO_GRUPO,QE_I01,QE_I02,QE_I08,QE_I09
-5402,B,A,B,E
-5402,C,E,A,A
-5402,A,D,B,C
-5402,A,D,A,C
-5402,E,B,C,D
-5402,A,A,A,B
-5402,B,D,B,E
-5402,A,D,A,A
-5402,A,D,A,A
-5402,A,A,C,A
-5402,A,D,B,C
-5402,E,A,A,B
-5402,A,D,A,A
-5402,A,B,C,D
-5402,A,A,A,B
-5402,A,B,A,A
-5402,A,A,A,A
-5402,A,B,A,B
-4004,A,D,C,B
-4004,A,A,B,D
-4004,A,D,B,E
-4004,A,D,B,B
-4004,A,F,D,C
-4004,A,A,E,B
-4004,A,D,B,C
-4004,A,D,B,A
-4004,A,A,C,A
-4004,A,D,F,B
-4004,A,A,C,B
-4004,A,A,C,D
-4004,A,A,E,C
-4004,A,A,F,E
-4004,A,D,B,C
-4004,A,A,B,B
-4004,A,D,F,C
-4004,A,A,F,D
-4004,A,D,E,C
-4004,A,A,F,C
-4004,A,A,A,C
-4004,A,A,B,B
-4004,A,D,C,D
-4004,A,A,B,C
-4004,A,A,E,D
-4004,A,D,F,D
-4004,A,D,B,B
-4004,A,A,B,C
-4004,A,D,F,C
-4004,A,D,E,C
-4004,A,D,E,C
-4004,A,A,E,C
-4004,A,D,A,C
-4004,A,A,C,C
-4004,A,A,C,C
-4004,A,A,B,D
-4004,A,C,B,B
-4004,A,B,C,C
-4004,A,D,C,E
-4004,A,D,A,B
-4004,A,A,F,B
-4004,A,A,F,B
-4004,A,D,B,D
-4004,A,A,C,B
-4004,A,A,C,B
-4004,A,A,A,B
-4004,A,A,D,C
-4004,A,A,C,E
-4004,A,D,D,B
-4004,A,D,A,D
-4004,A,D,E,B
-4004,A,A,C,B
-4004,A,D,C,E
-4004,A,A,C,C
-4004,A,A,C,C
-4004,B,B,D,E
-4004,B,D,B,F
-4004,A,D,C,C
-4004,A,D,E,C
-4004,A,D,D,E
-4004,A,B,B,C
-4004,A,A,F,C
-4004,A,F,F,B
-4004,A,D,D,B
-4004,A,A,E,C
-4004,A,A,C,B
-4004,A,A,F,D
-5402,B,D,A,A
-5402,A,A,B,B
-5402,A,D,A,E
-5402,A,D,A,B
-5402,A,A,B,B
-5402,A,D,A,A
-5402,A,A,B,B
-5402,A,D,A,E
-5402,A,A,B,A
-5402,A,D,A,B
-5402,A,B,A,B
-5402,B,D,B,E
-5402,E,A,A,A
-5402,B,F,B,E
-5402,B,B,A,B
-5402,A,D,A,A
-5402,A,D,A,A
-5402,B,D,A,A
-5402,E,B,A,F
-5402,A,D,E,B
-5402,A,C,B,B
-5402,A,A,B,C
-5402,A,D,A,C
-5402,A,D,A,F
-5402,D,C,B,C
-5402,A,A,A,B
-5402,A,A,B,A
-5402,A,D,A,B
-5402,A,A,B,C
-5402,A,D,A,B
-5402,A,B,B,C
-5402,A,A,A,A
-5402,A,A,A,B
-5402,A,B,A,B
-5402,A,A,B,B
-5402,A,D,A,B
-5402,A,D,A,C
-5402,A,D,A,E
-5402,E,D,A,A
-5402,A,A,A,B
-5402,A,D,A,F
-5402,A,D,A,B
-5402,B,D,A,B
-5402,A,D,B,C
-5402,A,A,B,B
-5402,A,A,B,B
-5402,B,D,B,C
-21,A,A,C,C
-21,A,A,F,C
-21,A,D,C,B
-21,A,A,D,C
-21,A,D,B,B
-21,A,F,C,B
-21,A,A,C,C
-21,A,D,A,A
-21,A,D,B,B
-21,A,A,B,B
-21,A,A,B,B
-21,B,A,E,F
-21,A,A,F,B
-21,A,D,F,C
-21,A,D,E,B
-21,A,A,B,C
-21,A,A,C,B
-21,A,A,D,B
-21,A,A,C,B
-21,A,A,C,D
-21,A,A,E,B
-21,A,A,F,B
-21,A,A,F,C
-21,A,D,D,C
-21,A,D,E,B
-21,A,D,F,B
-21,A,A,E,B
-21,A,A,F,B
-21,A,A,E,B
-21,A,A,C,B
-21,A,A,C,B
-21,A,A,F,B
-21,A,A,C,B
-21,C,A,C,B
-21,A,A,B,B
-21,A,A,D,B
-21,A,D,A,B
-21,A,A,F,B
-21,A,D,A,B
-21,A,A,C,B
-21,A,A,B,B
-21,A,D,C,B
-21,A,A,C,B
-21,A,A,D,B
-21,A,A,E,C
-21,A,A,D,C
-21,A,D,C,B
-21,A,F,D,B
-21,A,D,D,B
+"Qual a renda total de sua família, incluindo seus rendimentos?",Qual alternativa a seguir melhor descreve sua situação financeira (incluindo bolsas)?,Qual é a sua cor ou raça?,Qual o seu estado civil?,NOME_CURSO
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Tenho renda e contribuo com o sustento da família,Branca,Casado(a),Ciências Sociais (Licenciatura)
+"Até 1,5 salário mínimo (até R$ 1405,50).",Não tenho renda e meus gastos são financiados por programas governamentais,Indígena,Separado(a) judicialmente/divorciado(a),Ciências Sociais (Licenciatura)
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Parda,Solteiro(a),Ciências Sociais (Licenciatura)
+"Até 1,5 salário mínimo (até R$ 1405,50).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Parda,Solteiro(a),Ciências Sociais (Licenciatura)
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Tenho renda e não preciso de ajuda para financiar meus gastos,Preta,Outro,Ciências Sociais (Licenciatura)
+"Até 1,5 salário mínimo (até R$ 1405,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Ciências Sociais (Licenciatura)
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Tenho renda e contribuo com o sustento da família,Parda,Casado(a),Ciências Sociais (Licenciatura)
+"Até 1,5 salário mínimo (até R$ 1405,50).",Não tenho renda e meus gastos são financiados por programas governamentais,Parda,Solteiro(a),Ciências Sociais (Licenciatura)
+"Até 1,5 salário mínimo (até R$ 1405,50).",Não tenho renda e meus gastos são financiados por programas governamentais,Parda,Solteiro(a),Ciências Sociais (Licenciatura)
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados por programas governamentais,Branca,Solteiro(a),Ciências Sociais (Licenciatura)
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Parda,Solteiro(a),Ciências Sociais (Licenciatura)
+"Até 1,5 salário mínimo (até R$ 1405,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Outro,Ciências Sociais (Licenciatura)
+"Até 1,5 salário mínimo (até R$ 1405,50).",Não tenho renda e meus gastos são financiados por programas governamentais,Parda,Solteiro(a),Ciências Sociais (Licenciatura)
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Tenho renda e não preciso de ajuda para financiar meus gastos,Preta,Solteiro(a),Ciências Sociais (Licenciatura)
+"Até 1,5 salário mínimo (até R$ 1405,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Ciências Sociais (Licenciatura)
+"Até 1,5 salário mínimo (até R$ 1405,50).",Não tenho renda e meus gastos são financiados por programas governamentais,Preta,Solteiro(a),Ciências Sociais (Licenciatura)
+"Até 1,5 salário mínimo (até R$ 1405,50).",Não tenho renda e meus gastos são financiados por programas governamentais,Branca,Solteiro(a),Ciências Sociais (Licenciatura)
+"Até 1,5 salário mínimo (até R$ 1405,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Preta,Solteiro(a),Ciências Sociais (Licenciatura)
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Tenho renda e não preciso de ajuda para financiar meus gastos,Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Tenho renda e contribuo com o sustento da família,Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 4,5 a 6 salários mínimos (R$ 4216,51 a R$ 5.622,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Não quero declarar,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados por programas governamentais,Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados por programas governamentais,Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 10 a 30 salários mínimos (R$ 9370,01 a R$ 28.110,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Tenho renda e não preciso de ajuda para financiar meus gastos,Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 10 a 30 salários mínimos (R$ 9370,01 a R$ 28.110,00).",Tenho renda e contribuo com o sustento da família,Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 10 a 30 salários mínimos (R$ 9370,01 a R$ 28.110,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 10 a 30 salários mínimos (R$ 9370,01 a R$ 28.110,00).",Tenho renda e não preciso de ajuda para financiar meus gastos,Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 10 a 30 salários mínimos (R$ 9370,01 a R$ 28.110,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"Até 1,5 salário mínimo (até R$ 1405,50).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Tenho renda e não preciso de ajuda para financiar meus gastos,Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).",Tenho renda e não preciso de ajuda para financiar meus gastos,Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 10 a 30 salários mínimos (R$ 9370,01 a R$ 28.110,00).",Tenho renda e não preciso de ajuda para financiar meus gastos,Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 10 a 30 salários mínimos (R$ 9370,01 a R$ 28.110,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"Até 1,5 salário mínimo (até R$ 1405,50).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Tenho renda e não preciso de ajuda para financiar meus gastos,Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Amarela,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Preta,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Tenho renda e contribuo com o sustento da família,Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"Até 1,5 salário mínimo (até R$ 1405,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 10 a 30 salários mínimos (R$ 9370,01 a R$ 28.110,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 10 a 30 salários mínimos (R$ 9370,01 a R$ 28.110,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Tenho renda e não preciso de ajuda para financiar meus gastos,Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"Até 1,5 salário mínimo (até R$ 1405,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 4,5 a 6 salários mínimos (R$ 4216,51 a R$ 5.622,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Tenho renda e contribuo com o sustento da família,Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 4,5 a 6 salários mínimos (R$ 4216,51 a R$ 5.622,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"Até 1,5 salário mínimo (até R$ 1405,50).",Tenho renda e não preciso de ajuda para financiar meus gastos,Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Tenho renda e contribuo com o sustento da família,Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 4,5 a 6 salários mínimos (R$ 4216,51 a R$ 5.622,00).",Tenho renda e contribuo com o sustento da família,Preta,Casado(a),Ciência Da Computação (Bacharelado)
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Sou o principal responsável pelo sustento da família,Parda,Casado(a),Ciência Da Computação (Bacharelado)
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 4,5 a 6 salários mínimos (R$ 4216,51 a R$ 5.622,00).",Tenho renda e contribuo com o sustento da família,Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Preta,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 10 a 30 salários mínimos (R$ 9370,01 a R$ 28.110,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 10 a 30 salários mínimos (R$ 9370,01 a R$ 28.110,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Não quero declarar,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 4,5 a 6 salários mínimos (R$ 4216,51 a R$ 5.622,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 10 a 30 salários mínimos (R$ 9370,01 a R$ 28.110,00).",Tenho renda e não preciso de ajuda para financiar meus gastos,Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 10 a 30 salários mínimos (R$ 9370,01 a R$ 28.110,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Amarela,Casado(a),Arquitetura e Urbanismo
+"De 4,5 a 6 salários mínimos (R$ 4216,51 a R$ 5.622,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 10 a 30 salários mínimos (R$ 9370,01 a R$ 28.110,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Casado(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).",Não tenho renda e meus gastos são financiados por programas governamentais,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Não quero declarar,Solteiro(a),Arquitetura e Urbanismo
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Parda,Solteiro(a),Arquitetura e Urbanismo
+"Até 1,5 salário mínimo (até R$ 1405,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Casado(a),Arquitetura e Urbanismo
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 4,5 a 6 salários mínimos (R$ 4216,51 a R$ 5.622,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).",Tenho renda e contribuo com o sustento da família,Branca,Casado(a),Arquitetura e Urbanismo
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Casado(a),Arquitetura e Urbanismo
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Casado(a),Arquitetura e Urbanismo
+"Até 1,5 salário mínimo (até R$ 1405,50).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 10 a 30 salários mínimos (R$ 9370,01 a R$ 28.110,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Não quero declarar,Solteiro(a),Arquitetura e Urbanismo
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados por programas governamentais,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 4,5 a 6 salários mínimos (R$ 4216,51 a R$ 5.622,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados por programas governamentais,Parda,Casado(a),Arquitetura e Urbanismo
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Arquitetura e Urbanismo
+"Até 1,5 salário mínimo (até R$ 1405,50).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Separado(a) judicialmente/divorciado(a),Arquitetura e Urbanismo
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Amarela,Solteiro(a),Arquitetura e Urbanismo
+"Até 1,5 salário mínimo (até R$ 1405,50).",Sou o principal responsável pelo sustento da família,Parda,Casado(a),Arquitetura e Urbanismo
+"Até 1,5 salário mínimo (até R$ 1405,50).",Tenho renda e contribuo com o sustento da família,Branca,Separado(a) judicialmente/divorciado(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Parda,Casado(a),Arquitetura e Urbanismo
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados por programas governamentais,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 4,5 a 6 salários mínimos (R$ 4216,51 a R$ 5.622,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Amarela,Solteiro(a),Arquitetura e Urbanismo
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"Até 1,5 salário mínimo (até R$ 1405,50).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"Acima de 30 salários mínimos (mais de R$ 28110,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Tenho renda e não preciso de ajuda para financiar meus gastos,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 4,5 a 6 salários mínimos (R$ 4216,51 a R$ 5.622,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"Até 1,5 salário mínimo (até R$ 1405,50).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 10 a 30 salários mínimos (R$ 9370,01 a R$ 28.110,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Arquitetura e Urbanismo
+"Acima de 30 salários mínimos (mais de R$ 28110,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Preta,Casado(a),Arquitetura e Urbanismo
+"De 10 a 30 salários mínimos (R$ 9370,01 a R$ 28.110,00).",Não tenho renda e meus gastos são financiados por programas governamentais,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Tenho renda e não preciso de ajuda para financiar meus gastos,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados por programas governamentais,Parda,Casado(a),Arquitetura e Urbanismo
+"Até 1,5 salário mínimo (até R$ 1405,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Tenho renda e contribuo com o sustento da família,Parda,Casado(a),Arquitetura e Urbanismo
+"Até 1,5 salário mínimo (até R$ 1405,50).",Não tenho renda e meus gastos são financiados por programas governamentais,Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 4,5 a 6 salários mínimos (R$ 4216,51 a R$ 5.622,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 4,5 a 6 salários mínimos (R$ 4216,51 a R$ 5.622,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Arquitetura e Urbanismo
+"Até 1,5 salário mínimo (até R$ 1405,50).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Casado(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"Até 1,5 salário mínimo (até R$ 1405,50).",Sou o principal responsável pelo sustento da família,Parda,Casado(a),Arquitetura e Urbanismo
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Tenho renda e não preciso de ajuda para financiar meus gastos,Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Casado(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados por programas governamentais,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados por programas governamentais,Preta,Solteiro(a),Arquitetura e Urbanismo
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Casado(a),Arquitetura e Urbanismo
+"De 4,5 a 6 salários mínimos (R$ 4216,51 a R$ 5.622,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Preta,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 4,5 a 6 salários mínimos (R$ 4216,51 a R$ 5.622,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados por programas governamentais,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 4,5 a 6 salários mínimos (R$ 4216,51 a R$ 5.622,00).",Não tenho renda e meus gastos são financiados por programas governamentais,Parda,Solteiro(a),Arquitetura e Urbanismo
+"Até 1,5 salário mínimo (até R$ 1405,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Casado(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados por programas governamentais,Parda,Solteiro(a),Arquitetura e Urbanismo
+"Acima de 30 salários mínimos (mais de R$ 28110,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Solteiro(a),Arquitetura e Urbanismo
+"Até 1,5 salário mínimo (até R$ 1405,50).",Não tenho renda e meus gastos são financiados por programas governamentais,Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 4,5 a 6 salários mínimos (R$ 4216,51 a R$ 5.622,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Casado(a),Arquitetura e Urbanismo
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Não quero declarar,Solteiro(a),Arquitetura e Urbanismo
+"De 4,5 a 6 salários mínimos (R$ 4216,51 a R$ 5.622,00).",Tenho renda e não preciso de ajuda para financiar meus gastos,Amarela,Separado(a) judicialmente/divorciado(a),Arquitetura e Urbanismo
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 10 a 30 salários mínimos (R$ 9370,01 a R$ 28.110,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 10 a 30 salários mínimos (R$ 9370,01 a R$ 28.110,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 10 a 30 salários mínimos (R$ 9370,01 a R$ 28.110,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 4,5 a 6 salários mínimos (R$ 4216,51 a R$ 5.622,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Não quero declarar,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Solteiro(a),Arquitetura e Urbanismo
+"Até 1,5 salário mínimo (até R$ 1405,50).",Não tenho renda e meus gastos são financiados por programas governamentais,Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).",Sou o principal responsável pelo sustento da família,Branca,Casado(a),Arquitetura e Urbanismo
+"De 10 a 30 salários mínimos (R$ 9370,01 a R$ 28.110,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 10 a 30 salários mínimos (R$ 9370,01 a R$ 28.110,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 4,5 a 6 salários mínimos (R$ 4216,51 a R$ 5.622,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Tenho renda e não preciso de ajuda para financiar meus gastos,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 10 a 30 salários mínimos (R$ 9370,01 a R$ 28.110,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 10 a 30 salários mínimos (R$ 9370,01 a R$ 28.110,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 4,5 a 6 salários mínimos (R$ 4216,51 a R$ 5.622,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 10 a 30 salários mínimos (R$ 9370,01 a R$ 28.110,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 10 a 30 salários mínimos (R$ 9370,01 a R$ 28.110,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 10 a 30 salários mínimos (R$ 9370,01 a R$ 28.110,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Separado(a) judicialmente/divorciado(a),Arquitetura e Urbanismo
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 4,5 a 6 salários mínimos (R$ 4216,51 a R$ 5.622,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"Até 1,5 salário mínimo (até R$ 1405,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 10 a 30 salários mínimos (R$ 9370,01 a R$ 28.110,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"Até 1,5 salário mínimo (até R$ 1405,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 4,5 a 6 salários mínimos (R$ 4216,51 a R$ 5.622,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 4,5 a 6 salários mínimos (R$ 4216,51 a R$ 5.622,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 4,5 a 6 salários mínimos (R$ 4216,51 a R$ 5.622,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Não quero declarar,Solteiro(a),Arquitetura e Urbanismo
+"De 4,5 a 6 salários mínimos (R$ 4216,51 a R$ 5.622,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Arquitetura e Urbanismo
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Tenho renda e não preciso de ajuda para financiar meus gastos,Parda,Casado(a),Ciência Da Computação (Bacharelado)
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"Até 1,5 salário mínimo (até R$ 1405,50).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"Até 1,5 salário mínimo (até R$ 1405,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Tenho renda e contribuo com o sustento da família,Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados por programas governamentais,Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Não quero declarar,Solteiro(a),Ciência Da Computação (Bacharelado)
+"Até 1,5 salário mínimo (até R$ 1405,50).",Sou o principal responsável pelo sustento da família,Branca,Casado(a),Ciência Da Computação (Bacharelado)
+"Até 1,5 salário mínimo (até R$ 1405,50).",Tenho renda e não preciso de ajuda para financiar meus gastos,Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Tenho renda e contribuo com o sustento da família,Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"Até 1,5 salário mínimo (até R$ 1405,50).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"Até 1,5 salário mínimo (até R$ 1405,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Tenho renda e contribuo com o sustento da família,Parda,Casado(a),Ciência Da Computação (Bacharelado)
+"De 3 a 4,5 salários mínimos (R$ 2811,01 a R$ 4.216,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"Até 1,5 salário mínimo (até R$ 1405,50).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Branca,Separado(a) judicialmente/divorciado(a),Ciência Da Computação (Bacharelado)
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Tenho renda e não preciso de ajuda para financiar meus gastos,Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Sou o principal responsável pelo sustento da família,Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"Até 1,5 salário mínimo (até R$ 1405,50).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 4,5 a 6 salários mínimos (R$ 4216,51 a R$ 5.622,00).","Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos",Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
+"Até 1,5 salário mínimo (até R$ 1405,50).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 1,5 a 3 salários mínimos (R$ 1405,51 a R$ 2.811,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Parda,Solteiro(a),Ciência Da Computação (Bacharelado)
+"De 6 a 10 salários mínimos (R$ 5 622,01 a R$ 9.370,00).",Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas,Branca,Solteiro(a),Ciência Da Computação (Bacharelado)
