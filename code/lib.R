@@ -91,6 +91,13 @@ augment_str_datafiles <- function(){
 
     aumentado %>% 
         write_csv(here::here("data/enade_2017_ufcg_str_aug.csv"))
+    
+    aumentado %>% 
+        filter(tipo == "nota") %>% 
+        mutate(resposta = as.numeric(resposta)) %>% 
+        group_by(NOME_CURSO, pergunta, categoria, enunciado) %>% 
+        summarise(media = sum(as.numeric(resposta) * perc), n = sum(n)) %>% 
+        write_csv(here::here("data/enade_2017_ufcg_medias.csv"))
 }
 
 write_coded_datafiles <- function(raw, nomes, ies){
