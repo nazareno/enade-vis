@@ -1,5 +1,5 @@
 ---
-title: "REPLACE ME"
+title: "Enade 2017: Concluintes CCC x UFCG"
 output:
     html_document:
     df_print: paged
@@ -16,30 +16,156 @@ theme_set(theme_report())
 knitr::opts_chunk$set(tidy = FALSE,
                       fig.width = 6,
                       fig.height = 5,
+                      warning = FALSE,
+                      message =FALSE,
                       echo = FALSE)
-
-paleta = c("#404E4D",
-           "#92DCE5",
-           "#938BA1",
-           "#2D3142",
-           "#F4743B")
 ```
 
-```{r read}
+```{r read, warning=FALSE, message=FALSE}
 dados = read_projectdata()
+
+codigos = readr::read_csv(here::here("data/valores_qe_tidy.csv")) %>% 
+    select(pergunta, enunciado) %>% 
+    unique()
+
+# dados %>% 
+#     select(NOME_CURSO, 
+#            escolaridade_pai = `Até que etapa de escolarização seu pai concluiu?`, 
+#            escolaridade_mae = `Até que etapa de escolarização sua mãe concluiu?`) %>% 
+#     distinct(escolaridade_mae)
+#     write_csv("pai-e-mae.csv")
 ```
 
 ```{r}
-dados %>% 
-    group_by(`Instituição(IES)`, CO_CURSO, NOME_CURSO) %>% 
-    count(sort = T)
+# dados %>% 
+#     group_by(NOME_CURSO, `Instituição(IES)`, CO_CURSO) %>% 
+#     count(sort = T)
+```
+
+
+```{r}
+ccc_qe_l = dados %>% 
+    mutate(ccc = if_else(CO_CURSO == 13446, "ccc", "outros")) %>% 
+    select(2:82, ccc) %>% 
+    gather(key = "enunciado", value = "resposta", -ccc) 
+
+ccc_plot = ccc_qe_l %>% 
+    left_join(codigos, by = "enunciado") %>% 
+    filter(!is.na(resposta)) %>% 
+    count(enunciado, pergunta, ccc, resposta) %>% 
+    group_by(enunciado, pergunta, ccc) %>% 
+    mutate(perc = n / sum(n)) %>% 
+    ungroup() %>% 
+    mutate(enunciado = stringr::str_wrap(enunciado, width = 45), 
+           resposta = stringr::str_wrap(if_else(str_length(resposta) > 70, paste0(str_sub(resposta, 1, 70), "..."), resposta), width = 40)) 
+
 ```
 
 ```{r}
-dados %>% 
-    ggplot(aes(x = `Instituição(IES)`, y = QE_I27)) + 
-    geom_jitter(width = .2, size = .2, alpha = .8 ) +
-    # geom_boxplot() + 
-    coord_flip()
+plota_comparacoes <- function(respostas, titulo = "") {
+    ggplot(data = respostas %>% filter(ccc != "ccc"),
+           aes(x = reorder(resposta, perc), y = perc, fill = ccc)) +
+        geom_col(fill = "#FFD046",
+                 alpha = .5) +
+        geom_col(
+            data = filter(respostas, ccc == "ccc"),
+            fill = "#6699CC",
+            alpha = .5
+        ) +
+        facet_wrap( ~ enunciado,
+                    ncol = 2,
+                    scales = "free") +
+        coord_flip() + 
+        labs(title = titulo, 
+             x = "", 
+             y = "Proporção de respostas")
+}
 ```
+
+---
+
+```{r fig.height=12, fig.width=12}
+ccc_plot %>% 
+    filter(pergunta %in% c(paste0("QE_I0", c(1:3, 6, 9)), "QE_I10", "QE_I22")) %>% 
+    plota_comparacoes("Sobre o concluinte")
+```
+
+---
+
+
+```{r fig.height=9, fig.width=12}
+ccc_plot %>% 
+    filter(pergunta %in% c(paste0("QE_I0", c(4, 5, 7, 8)), "QE_I21")) %>% 
+    plota_comparacoes("Sobre a família")
+```
+
+---
+
+```{r fig.height=9, fig.width=12}
+ccc_plot %>% 
+    filter(pergunta %in% c(paste0("QE_I1", c(2:5)), "QE_I24")) %>% 
+    plota_comparacoes("Oportunidades e auxílios durante o curso")
+```
+
+---
+
+```{r fig.height=9, fig.width=12}
+ccc_plot %>% 
+    filter(pergunta %in% c(paste0("QE_I1", c(7,8,9)), paste0("QE_I2", c(0, 5:6)))) %>% 
+    plota_comparacoes("Ensino médio, escolha e incentivo")
+```
+
+---
+
+```{r fig.height=15, fig.width=12}
+ccc_plot %>% 
+    filter(pergunta %in% c(paste0("QE_I2", c(7:9)), paste0("QE_I3", c(1:6)), "QE_I66")) %>% 
+    plota_comparacoes("Aprendizagem além do técnico")
+```
+
+---
+
+```{r fig.height=9, fig.width=12}
+ccc_plot %>% 
+    filter(pergunta %in% c(paste0("QE_I3", c(0, 7:9)), "QE_I40")) %>% 
+    plota_comparacoes("Ensino")
+```
+
+---
+
+```{r fig.height=18, fig.width=12}
+ccc_plot %>% 
+    filter(pergunta %in% c(paste0("QE_I4", c(1:9)))) %>% 
+    plota_comparacoes("Atuação dos professores")
+```
+
+---
+
+```{r fig.height=18, fig.width=12}
+ccc_plot %>% 
+    filter(pergunta %in% c(paste0("QE_I5", c(2:8)))) %>% 
+    plota_comparacoes("Curso em geral")
+```
+
+---
+
+```{r fig.height=15, fig.width=12}
+ccc_plot %>% 
+    filter(pergunta %in% c(paste0("QE_I5", c(9)), paste0("QE_I6", c(0:8)))) %>% 
+    plota_comparacoes("Infraestrutura")
+```
+
+---
+
+```{r fig.height=18, fig.width=12}
+ccc_plot %>% 
+    filter(pergunta %in% c(paste0("QE_I4", c(1:9)), paste0("QE_I5", c(2:4)))) %>% 
+    plota_comparacoes("Curso em geral")
+```
+
+```{r}
+
+# ggsave("enade-quest.png", height = 150, width = 90, units = "cm", limitsize = FALSE)
+```
+
 
