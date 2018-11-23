@@ -3,26 +3,28 @@ theme_report <- function(base_size = 11,
                          strip_text_margin = 5,
                          subtitle_size = 13,
                          subtitle_margin = 10,
-                         plot_title_size = 16,
+                         plot_title_size = 36,
                          plot_title_margin = 10,
                          ...) {
     ret <- ggplot2::theme_minimal(base_family = "Roboto-Regular",
                                   base_size = base_size, ...)
     ret$strip.text <- ggplot2::element_text(hjust = 0, size=strip_text_size,
                                             margin=margin(b=strip_text_margin),
-                                            family="Roboto-Bold")
+                                            family="Roboto-Regular")
     ret$plot.subtitle <- ggplot2::element_text(hjust = 0, size=subtitle_size,
                                                margin=margin(b=subtitle_margin),
                                                family="PT Sans")
     ret$plot.title <- ggplot2::element_text(hjust = 0, size = plot_title_size,
-                                             margin=margin(b=plot_title_margin),
+                                            margin=margin(b=plot_title_margin),
                                             family="Oswald")
+    # ret$panel.margin <- ggplot2::unit(4, "in")
     ret
 }
 
 import_data <- function(){
     library(tidyverse)
     raw = read_csv2("~/Downloads/microdados_Enade_2017_portal_2018.10.09/3.DADOS/MICRODADOS_ENADE_2017.txt")
+    # raw = read_csv2("raw.tgz")
     
     nomes = readr::read_csv(here::here("data/nome-cursos-emec.csv"))
     ies = readr::read_csv2(here::here("data/ies_Brasil.csv")) %>% 
@@ -31,6 +33,67 @@ import_data <- function(){
                                     col_types = "ccccccc") %>% 
         select(pergunta, enunciado, chave, valor)
     
+    #
+    # dados com os códigos
+    #
+    write_coded_datafiles(raw, nomes, ies)
+    
+    #
+    # dados com strings das perguntas e respostas
+    #
+    write_str_datafiles(raw, nomes, ies, srt_respostas)
+}
+
+augment_str_datafiles <- function(){
+    dados = read_projectdata()
+    
+    codigos = readr::read_csv(here::here("data/valores_qe_tidy.csv")) %>% 
+        select(pergunta, enunciado) %>% 
+        unique()
+
+    aumentado = dados %>% 
+        mutate(NOME_CURSO = paste0(NOME_CURSO, " (", CO_CURSO, ")")) %>% 
+        select(2:82, NOME_CURSO) %>% 
+        gather(key = "enunciado", value = "resposta", -NOME_CURSO) %>% 
+        left_join(codigos, by = "enunciado") %>% 
+        mutate(pergunta = as.numeric(str_sub(pergunta, start = 5)))
+    
+    perguntas = tibble(pergunta = pull(aumentado, pergunta) %>% unique()) %>% 
+        mutate(
+            categoria = case_when(
+                pergunta %in% c(1:3, 6, 9, 10, 22) ~ "Sobre o concluinte",
+                pergunta %in% c(4, 5, 7, 8, 21) ~ "Sobre a família",
+                pergunta %in% c(12:15, 24) ~ "Oportunidades e auxílios",
+                pergunta %in% c(17:19, 20, 25, 26) ~ "Ensino médio, escolha e incentivo",
+                pergunta %in% c(27:29, 31:36, 66) ~ "Aprendizagem além do técnico",
+                pergunta %in% c(30, 37:39, 40) ~ "Ensino",
+                pergunta %in% c(41:49, 52:54) ~ "Curso em geral",
+                pergunta %in% c(23, 55:58) ~ "Professores, carga e avaliação",
+                pergunta %in% c(59, 60:65, 67:68) ~ "Infraestrutura",
+                TRUE ~ "Outros"
+            ), 
+            tipo = case_when(
+                pergunta %in% c(27:68) ~ "nota",
+                TRUE ~ "categorias"
+            )
+        ) %>% 
+        filter(
+            pergunta <= 68
+        )
+    
+    aumentado = aumentado %>% 
+        filter(!is.na(resposta)) %>% 
+        count(enunciado, pergunta, NOME_CURSO, resposta) %>% 
+        group_by(enunciado, pergunta, NOME_CURSO) %>% 
+        mutate(perc = n / sum(n)) %>% 
+        ungroup() %>% 
+        left_join(perguntas, by = "pergunta")
+
+    aumentado %>% 
+        write_csv(here::here("data/enade_2017_ufcg_str_aug.csv"))
+}
+
+write_coded_datafiles <- function(raw, nomes, ies){
     raw %>% 
         filter(CO_UF_CURSO == 25) %>% 
         write_projectdata(nomes, ies, "data/enade_2017_pb.csv")
@@ -39,23 +102,25 @@ import_data <- function(){
         filter(CO_IES == 2564) %>% 
         write_projectdata(nomes, ies, "data/enade_2017_ufcg.csv")
     
-    dados_cg = raw %>% 
+    raw %>% 
         filter(CO_MUNIC_CURSO == 2504009) %>% 
         write_projectdata(nomes, ies, "data/enade_2017_cg.csv")
-    
+}
+
+write_str_datafiles <- function(raw, nomes, ies, str_respostas){
     raw %>% 
         filter(CO_UF_CURSO == 25) %>% 
-        append_str_respostas(srt_respostas) %>% 
+        append_str_respostas(str_respostas) %>% 
         write_projectdata(nomes, ies, "data/enade_2017_pb-str.csv")
     
     raw %>% 
         filter(CO_IES == 2564) %>% 
-        append_str_respostas(srt_respostas) %>% 
+        append_str_respostas(str_respostas) %>% 
         write_projectdata(nomes, ies, "data/enade_2017_ufcg-str.csv")
     
-    dados_cg = raw %>% 
+    raw %>% 
         filter(CO_MUNIC_CURSO == 2504009) %>% 
-        append_str_respostas(srt_respostas) %>% 
+        append_str_respostas(str_respostas) %>% 
         write_projectdata(nomes, ies, "data/enade_2017_cg-str.csv")
 }
 
@@ -129,5 +194,5 @@ write_projectdata <- function(enade, nomes, ies, saida){
 
 read_projectdata <- function(){
     # readr::read_csv(here::here("data/enade_2017_cg.csv")) 
-    readr::read_csv(here::here("data/enade_2017_ufcg.csv")) 
+    readr::read_csv(here::here("data/enade_2017_ufcg-str.csv")) 
 }
