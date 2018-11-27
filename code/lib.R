@@ -97,6 +97,10 @@ augment_str_datafiles <- function(){
         mutate(resposta = as.numeric(resposta)) %>% 
         group_by(NOME_CURSO, pergunta, categoria, enunciado) %>% 
         summarise(media = sum(as.numeric(resposta) * perc), n = sum(n)) %>% 
+        filter(n >= 20) %>% 
+        arrange(-media) %>%
+        group_by(enunciado) %>% 
+        mutate(rank = 1:n()) %>%
         write_csv(here::here("data/enade_2017_ufcg_medias.csv"))
 }
 
