@@ -29,7 +29,7 @@ import_data <- function(){
     nomes = readr::read_csv(here::here("data/nome-cursos-emec.csv"))
     ies = readr::read_csv2(here::here("data/ies_Brasil.csv")) %>% 
         select(-matches("CI"), -`Situação`)
-    srt_respostas = readr::read_csv(here::here("data/valores_qe_tidy.csv"), 
+    str_respostas = readr::read_csv(here::here("data/valores_qe_tidy.csv"), 
                                     col_types = "ccccccc") %>% 
         select(pergunta, enunciado, chave, valor)
     
@@ -41,20 +41,27 @@ import_data <- function(){
     #
     # dados com strings das perguntas e respostas
     #
-    write_str_datafiles(raw, nomes, ies, srt_respostas)
+    write_str_datafiles(raw, nomes, ies, str_respostas)
+    
+    read_csv(here::here("data/enade_2017_ufcg-str.csv")) %>% 
+        augment_str_datafiles() %>%
+        write_csv(here::here("data/enade_2017_ufcg_medias.csv"))
+    
+    read_csv(here::here("data/enade_2017_ccc_br-str.csv")) %>% 
+        augment_str_datafiles() %>% 
+        filter(n >= 50) %>% 
+        write_csv(here::here("data/enade_2017_cccs_medias.csv"))
 }
 
-augment_str_datafiles <- function(){
-    dados = read_projectdata()
-    
+augment_str_datafiles <- function(dados){
     codigos = readr::read_csv(here::here("data/valores_qe_tidy.csv")) %>% 
         select(pergunta, enunciado) %>% 
         unique()
 
     aumentado = dados %>% 
-        mutate(NOME_CURSO = paste0(NOME_CURSO, " (", CO_CURSO, ")")) %>% 
-        select(2:82, NOME_CURSO) %>% 
-        gather(key = "enunciado", value = "resposta", -NOME_CURSO) %>% 
+        mutate(NOME_CURSO = paste0(NOME_CURSO, " (", CO_CURSO, ")"), IES = Sigla) %>% 
+        select(2:82, NOME_CURSO, IES, UF) %>% 
+        gather(key = "enunciado", value = "resposta", -NOME_CURSO, -IES, -UF) %>% 
         left_join(codigos, by = "enunciado") %>% 
         mutate(pergunta = as.numeric(str_sub(pergunta, start = 5)))
     
@@ -83,56 +90,57 @@ augment_str_datafiles <- function(){
     
     aumentado = aumentado %>% 
         filter(!is.na(resposta)) %>% 
-        count(enunciado, pergunta, NOME_CURSO, resposta) %>% 
-        group_by(enunciado, pergunta, NOME_CURSO) %>% 
+        count(enunciado, pergunta, NOME_CURSO, IES, UF, resposta) %>% 
+        group_by(enunciado, pergunta, NOME_CURSO, IES, UF) %>% 
         mutate(perc = n / sum(n)) %>% 
         ungroup() %>% 
         left_join(perguntas, by = "pergunta")
 
-    aumentado %>% 
-        write_csv(here::here("data/enade_2017_ufcg_str_aug.csv"))
+    # aumentado %>% 
+    #     write_csv(here::here("data/enade_2017_ufcg_str_aug.csv"))
     
     aumentado %>% 
         filter(tipo == "nota") %>% 
         mutate(resposta = as.numeric(resposta)) %>% 
-        group_by(NOME_CURSO, pergunta, categoria, enunciado) %>% 
+        group_by(NOME_CURSO, IES, UF, pergunta, categoria, enunciado) %>% 
         summarise(media = sum(as.numeric(resposta) * perc), n = sum(n)) %>% 
-        filter(n >= 20) %>% 
+        filter(n >= 20) %>% ## FILTRA APENAS CURSOS COM PELO MENOS 20 CONCLUINTES!
         arrange(-media) %>%
         group_by(enunciado) %>% 
-        mutate(rank = 1:n()) %>%
-        write_csv(here::here("data/enade_2017_ufcg_medias.csv"))
+        mutate(rank = 1:n())
 }
 
 write_coded_datafiles <- function(raw, nomes, ies){
     raw %>% 
         filter(CO_UF_CURSO == 25) %>% 
-        write_projectdata(nomes, ies, "data/enade_2017_pb.csv")
+        select_project_variables(nomes, ies) %>% 
+        write_csv(here::here("data/enade_2017_pb.csv"))
     
     raw %>% 
         filter(CO_IES == 2564) %>% 
-        write_projectdata(nomes, ies, "data/enade_2017_ufcg.csv")
-    
-    raw %>% 
-        filter(CO_MUNIC_CURSO == 2504009) %>% 
-        write_projectdata(nomes, ies, "data/enade_2017_cg.csv")
+        select_project_variables(nomes, ies) %>% 
+        write_csv(here::here("data/enade_2017_ufcg.csv"))
 }
 
 write_str_datafiles <- function(raw, nomes, ies, str_respostas){
     raw %>% 
         filter(CO_UF_CURSO == 25) %>% 
         append_str_respostas(str_respostas) %>% 
-        write_projectdata(nomes, ies, "data/enade_2017_pb-str.csv")
+        select_project_variables(nomes, ies) %>% 
+        write_csv(here::here("data/enade_2017_pb-str.csv"))
     
     raw %>% 
         filter(CO_IES == 2564) %>% 
         append_str_respostas(str_respostas) %>% 
-        write_projectdata(nomes, ies, "data/enade_2017_ufcg-str.csv")
+        select_project_variables(nomes, ies) %>% 
+        write_csv(here::here("data/enade_2017_ufcg-str.csv"))
     
     raw %>% 
-        filter(CO_MUNIC_CURSO == 2504009) %>% 
+        filter(CO_GRUPO == 4004) %>% 
         append_str_respostas(str_respostas) %>% 
-        write_projectdata(nomes, ies, "data/enade_2017_cg-str.csv")
+        select_project_variables(nomes, ies) %>%  
+        mutate(NOME_CURSO = 'Ciência Da Computação (Bacharelado)') %>%  ## TODO GAMBIARRA!
+        write_csv(here::here("data/enade_2017_ccc_br-str.csv"))
 }
 
 append_str_respostas <- function(df, srt_respostas){
@@ -146,6 +154,7 @@ append_str_respostas <- function(df, srt_respostas){
     
     qes_l = qes %>% 
         gather(key = "questão", value = "resposta", -id) %>% 
+        filter(!(`questão` %in% paste0("QE_I", 69:81))) %>%
         left_join(srt_respostas, by = c("questão" = "pergunta", "resposta" = "chave")) %>% 
         group_by(`questão`) %>% 
         mutate(enunciado = first(na.omit(enunciado))) %>% 
@@ -189,17 +198,19 @@ import_codigo_valores <- function(){
 }
 
 
-write_projectdata <- function(enade, nomes, ies, saida){
+select_project_variables <- function(enade, nomes, ies){
     enade %>% 
         left_join(nomes, by = "CO_CURSO") %>% 
-        filter(TP_PRES == 555, TP_PR_GER == 555) %>%
-        select(-150:-138) %>% 
+        filter(TP_PRES == 555, TP_PR_GER == 555) %>% 
         select(-starts_with("NU_ITEM_"),
                -starts_with("DS_VT_"),
-               -starts_with("TP_PR_"),
-               -starts_with("TP_SFG")) %>% 
-        left_join(ies, by = c("CO_IES" = "Código IES")) %>% 
-        write_csv(here::here(saida))
+               -starts_with("CO_RS"),
+               -starts_with("NT_FG_"),
+               -starts_with("NT_DIS_"),
+               -starts_with("NT_OBJ_"),
+               -starts_with("NT_CE_"),
+               -starts_with("TP_")) %>% 
+        left_join(ies, by = c("CO_IES" = "Código IES")) 
 }
 
 
