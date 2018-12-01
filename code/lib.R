@@ -48,12 +48,11 @@ import_data <- function(){
         write_csv(here::here("data/enade_2017_ufcg_medias.csv"))
     
     read_csv(here::here("data/enade_2017_ccc_br-str.csv")) %>% 
-        augment_str_datafiles() %>% 
-        filter(n >= 50) %>% 
+        augment_str_datafiles(tamanho_minimo = 50) %>% 
         write_csv(here::here("data/enade_2017_cccs_medias.csv"))
 }
 
-augment_str_datafiles <- function(dados){
+augment_str_datafiles <- function(dados, tamanho_minimo = 20){
     codigos = readr::read_csv(here::here("data/valores_qe_tidy.csv")) %>% 
         select(pergunta, enunciado) %>% 
         unique()
@@ -104,7 +103,7 @@ augment_str_datafiles <- function(dados){
         mutate(resposta = as.numeric(resposta)) %>% 
         group_by(NOME_CURSO, IES, UF, pergunta, categoria, enunciado) %>% 
         summarise(media = sum(as.numeric(resposta) * perc), n = sum(n)) %>% 
-        filter(n >= 20) %>% ## FILTRA APENAS CURSOS COM PELO MENOS 20 CONCLUINTES!
+        filter(n >= tamanho_minimo) %>% 
         arrange(-media) %>%
         group_by(enunciado) %>% 
         mutate(rank = 1:n())
