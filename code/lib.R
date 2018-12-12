@@ -50,6 +50,10 @@ import_data <- function(){
     read_csv(here::here("data/enade_2017_ccc_br-str.csv")) %>% 
         augment_str_datafiles(tamanho_minimo = 50) %>% 
         write_csv(here::here("data/enade_2017_cccs_medias.csv"))
+    
+    read_csv(here::here("data/enade_2017_tudo_br-str.csv")) %>% 
+        augment_str_datafiles(tamanho_minimo = 60) %>% 
+        write_csv(here::here("data/enade_2017_tudo_medias.csv"))
 }
 
 augment_str_datafiles <- function(dados, tamanho_minimo = 20){
@@ -72,10 +76,9 @@ augment_str_datafiles <- function(dados, tamanho_minimo = 20){
                 pergunta %in% c(12:15, 24) ~ "Oportunidades e auxílios",
                 pergunta %in% c(17:19, 20, 25, 26) ~ "Ensino médio, escolha e incentivo",
                 pergunta %in% c(27:29, 31:36, 66) ~ "Aprendizagem além do técnico",
-                pergunta %in% c(30, 37:39, 40) ~ "Ensino",
-                pergunta %in% c(41:49, 52:54) ~ "Curso em geral",
-                pergunta %in% c(23, 55:58) ~ "Professores, carga e avaliação",
-                pergunta %in% c(59, 60:65, 67:68) ~ "Infraestrutura",
+                pergunta %in% c(30, 37:39, 40, 23, 55:58) ~ "Ensino, apoio e avaliacão",
+                pergunta %in% c(41:49, 52:54, 60) ~ "Curso em geral",
+                pergunta %in% c(59, 61:65, 67:68) ~ "Infraestrutura",
                 TRUE ~ "Outros"
             ), 
             tipo = case_when(
@@ -140,6 +143,11 @@ write_str_datafiles <- function(raw, nomes, ies, str_respostas){
         select_project_variables(nomes, ies) %>%  
         mutate(NOME_CURSO = 'Ciência Da Computação (Bacharelado)') %>%  ## TODO GAMBIARRA!
         write_csv(here::here("data/enade_2017_ccc_br-str.csv"))
+    
+    raw %>% 
+        append_str_respostas(str_respostas) %>% 
+        select_project_variables(nomes, ies) %>%  
+        write_csv(here::here("data/enade_2017_tudo_br-str.csv"))
 }
 
 append_str_respostas <- function(df, srt_respostas){
